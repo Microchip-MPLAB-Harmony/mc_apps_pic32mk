@@ -5,14 +5,14 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Hardware |
 |:---------|:---------:|
-| mchv3_pic32mk_mcm_pim.X |<br>[MCHV3 Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm330023-3)<br>[PIC32MK MCM Motor Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211)<br>[Leadshine EL5-M0400-1-24 Motor](https://www.microchip.com/developmenttools/ProductDetails/AC300025) 
+| mchv3_pic32mk_mcf_pim.X |<br>[MCHV3 Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm330023-3)<br>[PIC32MK MCF Motor Plugin Module](https://www.microchip.com/developmenttools/ProductDetails/ma320024)<br>[Leadshine EL5-M0400-1-24 Motor](https://www.microchip.com/developmenttools/ProductDetails/AC300025) 
 |||
 
 ### Setting up [MCHV3 Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm330023-3)
 
-- Mount the PIC32MK MCM Motor Control Plug In Module on U11 header. 
+- Mount the PIC32MK MCF Motor Control Plug In Module on U11 header. 
 
-    ![PIM Install](images/mchv3/pic32mk_mcm_pim_mchv3.jpg)
+    ![PIM Install](images/mchv3/pic32mk_mcf_pim.png)
 
 - Place the "External Opamp Configuration" Matrix board at J4.
 
@@ -24,6 +24,14 @@ The following table shows the target hardware for the application projects.
     - Phase W - M3
 
     ![Motor Connections](images/mchv3/motor_connections_mchv3.png)
+    
+- Encoder Connections:
+    - A+ : HA
+    - B+ : HB
+    - 5V : +5V
+    - 0V : GND
+    
+    ![Encoder Connections](images/mchv3/encoder_connections_mchv3.png)
 
 - Jumper Settings: 
     - J11 - VAC ( Short Pin 3 - 4)

@@ -4,7 +4,7 @@
 The following table shows the target hardware for the application projects.
 
 | Project Name| Hardware |
-|:---------|:---------:|
+|:---------:|:---------:|
 | mclv2_pic32mk_mcm_pim.X |<br>[MCLV2 Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2)<br>[PIC32MK MCM Motor Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211)<br>[Hurst Motor with encoder](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNo/AC300022) |
 |||
 
@@ -18,12 +18,19 @@ The following table shows the target hardware for the application projects.
 
     ![External OPAMP](images/mclv2/mclv2_ext_opamp.png)
 
-- Motor Connections: 
-    - Phase U - M1 
-    - Phase V - M2 
-    - Phase W - M3
+- Motor Connections with MCLV2 Board: 
 
-    ![Motor Connections](images/mclv2/mclv2_motor_connection.png)
+    |Motor | MCLV2 Board |
+    |:----:|:------:|
+    | Phase U | M1 |
+    | Phase V | M2 |
+    | Phase W | M3 |
+    | +5V     | +5V |
+    | -5V |GND |
+    | A | HA |
+    | B | HB |
+
+    ![Motor Connections](images/mclv2/encoder_pic32mk_motor_connections.png)
 
 - Jumper Settings: 
     - JP1 - Curr, JP2 - Curr, JP3 - Curr 

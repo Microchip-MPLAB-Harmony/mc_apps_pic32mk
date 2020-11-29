@@ -24,6 +24,14 @@ The following table shows the target hardware for the application projects.
     - Phase W - M3
 
     ![Motor Connections](images/mchv3/motor_connections_mchv3.png)
+    
+- Encoder Connections:
+    - A+ : HA
+    - B+ : HB
+    - 5V : +5V
+    - 0V : GND
+    
+    ![Encoder Connections](images/mchv3/encoder_connections_mchv3.png)
 
 - Jumper Settings: 
     - J11 - VAC ( Short Pin 3 - 4)

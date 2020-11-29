@@ -4,26 +4,33 @@
 The following table shows the target hardware for the application projects.
 
 | Project Name| Hardware |
-|:---------|:---------:|
-| mclv2_pic32mk_mcm_pim.X |<br>[MCLV2 Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2)<br>[PIC32MK MCM Motor Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211)<br>[Hurst Motor with encoder](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNo/AC300022) |
+|:---------:|:---------:|
+| mclv2_pic32mk_mcf_pim.X |<br>[MCLV2 Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2)<br>[PIC32MK MCF Motor Plugin Module](https://www.microchip.com/developmenttools/ProductDetails/ma320024)<br>[Hurst Motor with encoder](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNo/AC300022) |
 |||
 
 ### Setting up [MCLV2 Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2)
 
-- Mount the PIC32MK MCM Motor Control Plug In Module on U9 header. 
+- Mount the PIC32MK MCF Motor Control Plug In Module on U9 header. 
 
-    ![PIM Install](images/mclv2/pic32mk_mcm_mclv2.jpg)
+    ![PIM Install](images/mclv2/pic32mk_mcf_pim.png)
 
 - Place the "External Opamp Configuration" Matrix board at J14.
 
     ![External OPAMP](images/mclv2/mclv2_ext_opamp.png)
 
-- Motor Connections: 
-    - Phase U - M1 
-    - Phase V - M2 
-    - Phase W - M3
+- Motor Connections with MCLV2 Board: 
 
-    ![Motor Connections](images/mclv2/mclv2_motor_connection.png)
+    |Motor | MCLV2 Board |
+    |:----:|:------:|
+    | Phase U | M1 |
+    | Phase V | M2 |
+    | Phase W | M3 |
+    | +5V     | +5V |
+    | -5V |GND |
+    | A | HA |
+    | B | HB |
+
+    ![Motor Connections](images/mclv2/encoder_pic32mk_motor_connections.png)
 
 - Jumper Settings: 
     - JP1 - Curr, JP2 - Curr, JP3 - Curr 
@@ -39,7 +46,7 @@ The following table shows the target hardware for the application projects.
 
 - Complete Setup
 
-    ![Setup](images/mclv2/pic32mk_mcm_mclv2_complete_setup.png)
+    ![Setup](images/mclv2/pic32mk_mcf_mclv2_complete_setup.png)
 
 ## Running the Application
 

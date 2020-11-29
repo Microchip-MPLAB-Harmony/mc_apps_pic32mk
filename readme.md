@@ -3,6 +3,7 @@
 MPLAB Harmony 3 is an extension of the MPLAB® ecosystem for creating
 embedded firmware solutions for Microchip 32-bit SAM and PIC32 microcontroller
 and microprocessor devices.  Refer to the following links for more information.
+ - [Microchip PIC32MK MCU Family](https://www.microchip.com/design-centers/32-bit/pic-32-bit-mcus/pic32mk-family)
  - [Microchip 32-bit MCUs for Motor Control Applications](https://www.microchip.com/design-centers/motor-control-and-drive/control-products/32-bit-solutions)
  - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit)
  - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus)

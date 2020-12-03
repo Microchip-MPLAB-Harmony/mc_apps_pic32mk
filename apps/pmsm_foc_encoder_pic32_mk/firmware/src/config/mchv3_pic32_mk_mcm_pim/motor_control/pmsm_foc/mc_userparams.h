@@ -42,6 +42,7 @@
 #ifndef _USER_HEADER
 #define _USER_HEADER
 
+#include "mc_pmsm_foc_common.h"
 /***********************************************************************************************/
 /*                    include files                                                            */
 /***********************************************************************************************/
@@ -60,8 +61,8 @@
 #define FIELD_WEAKENING                  (DISABLED)  /* If enabled - Field weakening */
 #define ALIGNMENT_METHOD                 (FORCED_ALIGNMENT)  /* alignment method  */
 
-#define Q_AXIS_ALIGNMENT                 (ENABLED)
 
+#define Q_AXIS_ALIGNMENT                 (ENABLED)
 #define CURRENT_MEASUREMENT              (DUAL_SHUNT)  /* Current measurement shunts */
 
 #define POTENTIOMETER_INPUT_ENABLED       ENABLED
@@ -73,7 +74,7 @@
 #define MOTOR_BEMF_CONST_V_PEAK_LL_KRPM_MECH                ((float)44.380001)
 #define NUM_POLE_PAIRS                                      ((float)5)
 #define RATED_SPEED_RPM                                     ((float)3000)
-#define MAX_SPEED_RPM                                       ((float)5000)
+#define MAX_SPEED_RPM                                       ((float)4500)
 #define MAX_MOTOR_CURRENT                                   ((float)4)
 #define MOTOR_CONNECTION                                    (STAR)
 #define ENCODER_PULSES_PER_REV                              ((float)2500)
@@ -95,7 +96,7 @@
 
 /* Field weakening - Limit for -ve Idref */
 #if(FIELD_WEAKENING == ENABLED)
-#define MAX_FW_NEGATIVE_ID_REF              (float)(-2)
+#define MAX_FW_NEGATIVE_ID_REF              (float)(-2.5)
 #endif
 
 /******************************************************************************/
@@ -115,7 +116,7 @@
 
 /******* Velocity Control Loop Coefficients **********************************/
 #define     SPEEDCNTR_PTERM            (float)(0.005)
-#define     SPEEDCNTR_ITERM            (float)(0.00002 * 0.01f)
+#define     SPEEDCNTR_ITERM            (float)(0.000002 * 0.01f)
 #define     SPEEDCNTR_CTERM            (float)(0.5)
 #define     SPEEDCNTR_OUTMAX           (float)(4)
 

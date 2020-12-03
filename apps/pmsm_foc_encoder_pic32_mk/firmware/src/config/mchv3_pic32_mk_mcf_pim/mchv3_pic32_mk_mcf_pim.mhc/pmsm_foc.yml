@@ -65,6 +65,12 @@ children:
   - type: Integer
     attributes: {id: MCPMSMFOC_DCBUSV_CH}
     children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '53'}
     - type: Values
       children:
       - type: Dynamic
@@ -139,6 +145,63 @@ children:
       children:
       - type: Dynamic
         attributes: {id: pmsm_foc, value: '77'}
+  - type: Boolean
+    attributes: {id: MCPMSMFOC_FLYING_START}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: 'false'}
+  - type: Float
+    attributes: {id: MCPMSMFOC_FLYING_START_CL_BANDWIDTH}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '2000.0'}
+  - type: Comment
+    attributes: {id: MCPMSMFOC_FLYING_START_COMMENT}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Float
+    attributes: {id: MCPMSMFOC_FLYING_START_ID_KI}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '0.0099'}
+  - type: Float
+    attributes: {id: MCPMSMFOC_FLYING_START_ID_KP}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '0.2'}
+  - type: Float
+    attributes: {id: MCPMSMFOC_FLYING_START_IQ_KI}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '0.0099'}
+  - type: Float
+    attributes: {id: MCPMSMFOC_FLYING_START_IQ_KP}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '0.2'}
   - type: Float
     attributes: {id: MCPMSMFOC_ID_KI}
     children:
@@ -153,6 +216,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: pmsm_foc, value: '0.02'}
+  - type: Boolean
+    attributes: {id: MCPMSMFOC_INTERM_FLYING_START}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: 'false'}
   - type: Float
     attributes: {id: MCPMSMFOC_IQ_KI}
     children:
@@ -202,6 +272,8 @@ children:
       children:
       - type: Dynamic
         attributes: {id: pmsm_foc, value: '5000.0'}
+      - type: User
+        attributes: {value: '4500.0'}
   - type: KeyValueSet
     attributes: {id: MCPMSMFOC_MOTOR_CONNECTION}
     children:
@@ -253,6 +325,12 @@ children:
   - type: Integer
     attributes: {id: MCPMSMFOC_PHASEU_CH}
     children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '53'}
     - type: Values
       children:
       - type: Dynamic
@@ -267,6 +345,12 @@ children:
   - type: Integer
     attributes: {id: MCPMSMFOC_PHASEV_CH}
     children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '53'}
     - type: Values
       children:
       - type: Dynamic
@@ -293,24 +377,6 @@ children:
       - type: User
         attributes: {value: '1'}
   - type: File
-    attributes: {id: MCPMSMFOC_POS_ENCODER_HEADER}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-  - type: File
-    attributes: {id: MCPMSMFOC_POS_ENCODER_SOURCE}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'true'}
-  - type: File
     attributes: {id: MCPMSMFOC_POS_PLL_HEADER}
     children:
     - type: Attributes
@@ -331,6 +397,12 @@ children:
   - type: Integer
     attributes: {id: MCPMSMFOC_POT_CH}
     children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '53'}
     - type: Values
       children:
       - type: Dynamic
@@ -384,6 +456,12 @@ children:
   - type: Integer
     attributes: {id: MCPMSMFOC_PWM_PH_U}
     children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '11'}
     - type: Values
       children:
       - type: Dynamic
@@ -391,6 +469,12 @@ children:
   - type: Integer
     attributes: {id: MCPMSMFOC_PWM_PH_V}
     children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '11'}
     - type: Values
       children:
       - type: Dynamic
@@ -398,6 +482,12 @@ children:
   - type: Integer
     attributes: {id: MCPMSMFOC_PWM_PH_W}
     children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '11'}
     - type: Values
       children:
       - type: Dynamic
@@ -426,10 +516,16 @@ children:
   - type: Float
     attributes: {id: MCPMSMFOC_SPEED_KI}
     children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: label}
+        children:
+        - {type: Value, value: 'Ki (* 0.01) '}
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: pmsm_foc, value: '2.0E-5'}
+        attributes: {id: pmsm_foc, value: '2.0E-6'}
   - type: Float
     attributes: {id: MCPMSMFOC_SPEED_KP}
     children:

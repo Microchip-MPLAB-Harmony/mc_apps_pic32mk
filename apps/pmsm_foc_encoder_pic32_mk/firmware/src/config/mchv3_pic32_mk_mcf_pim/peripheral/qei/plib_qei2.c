@@ -88,19 +88,19 @@ void QEI2_Initialize (void)
 }
 
 
-void QEI2_Start()
+void QEI2_Start(void)
 {
     /* Enable QEI channel */
     QEI2CON |= _QEI2CON_QEIEN_MASK;
 }
 
-void QEI2_Stop()
+void QEI2_Stop(void)
 {
     /* Disable QEI channel */
     QEI2CON &= ~_QEI2CON_QEIEN_MASK;
 }
 
-uint32_t QEI2_PulseIntervalGet()
+uint32_t QEI2_PulseIntervalGet(void)
 {
     return (INT2HLD);
 }

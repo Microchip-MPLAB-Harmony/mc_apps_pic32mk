@@ -558,36 +558,12 @@ children:
   - type: Boolean
     attributes: {id: ADCGIRQEN1__AGIEN0}
     children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
     - type: Values
       children:
       - type: Dynamic
         attributes: {id: adchs, value: 'false'}
   - type: Boolean
     attributes: {id: ADCGIRQEN1__AGIEN1}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
-    attributes: {id: ADCGIRQEN1__AGIEN10}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
-    attributes: {id: ADCGIRQEN1__AGIEN15}
     children:
     - type: Attributes
       children:
@@ -608,15 +584,6 @@ children:
       children:
       - type: Dynamic
         attributes: {id: adchs, value: 'true'}
-  - type: Boolean
-    attributes: {id: ADCGIRQEN1__AGIEN4}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
   - type: Boolean
     attributes: {id: ADCHS_0_ENABLE}
     children:
@@ -1255,34 +1222,7 @@ children:
       - type: Dynamic
         attributes: {id: adchs, value: '33.333332'}
   - type: Boolean
-    attributes: {id: ADCIMCON1__DIFF0}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
     attributes: {id: ADCIMCON1__DIFF1}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
-    attributes: {id: ADCIMCON1__DIFF10}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
-    attributes: {id: ADCIMCON1__DIFF15}
     children:
     - type: Attributes
       children:
@@ -1300,24 +1240,6 @@ children:
         children:
         - {type: Value, value: 'true'}
   - type: Boolean
-    attributes: {id: ADCIMCON1__DIFF4}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
-    attributes: {id: ADCIMCON1__SIGN0}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
     attributes: {id: ADCIMCON1__SIGN1}
     children:
     - type: Attributes
@@ -1327,34 +1249,7 @@ children:
         children:
         - {type: Value, value: 'true'}
   - type: Boolean
-    attributes: {id: ADCIMCON1__SIGN10}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
-    attributes: {id: ADCIMCON1__SIGN15}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
     attributes: {id: ADCIMCON1__SIGN3}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'true'}
-  - type: Boolean
-    attributes: {id: ADCIMCON1__SIGN4}
     children:
     - type: Attributes
       children:

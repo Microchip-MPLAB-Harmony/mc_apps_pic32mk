@@ -80,7 +80,7 @@ extern "C" {
 // *****************************************************************************
 // *****************************************************************************
 
-/* PWM */
+/****************************** PWM ***********************************************************/
 #define MCHAL_PWM_PH_U                  MCPWM_CH_1
 #define MCHAL_PWM_PH_V                  MCPWM_CH_2
 #define MCHAL_PWM_PH_W                  MCPWM_CH_3
@@ -94,7 +94,7 @@ extern "C" {
 #define MCHAL_PWMCallbackRegister(ch, fn, context)  MCPWM_CallbackRegister(ch, fn, context)
 
 
-/* ADC */
+/**************************************** ADC ***************************************************/
 #define MCHAL_ADC_PH_U                                   ADCHS_CH3
 #define MCHAL_ADC_PH_V                                   ADCHS_CH1
 #define MCHAL_ADC_PH_W
@@ -104,13 +104,18 @@ extern "C" {
 #define MCHAL_ADC_RESULT_SHIFT                           0
 #define MCHAL_ADCCallbackRegister(ch, fn, context)       ADCHS_CallbackRegister(ch, fn, context)
 #define MCHAL_ADCChannelConversionStart(ch)              ADCHS_ChannelConversionStart(ch)
-#define MCHAL_ADCChannelResultGet(ch)                    ADCHS_ChannelResultGet(ch)
+#define MCHAL_ADCPhaseUResultGet(ch)                     ADCHS_ChannelResultGet(ch)
+#define MCHAL_ADCPhaseVResultGet(ch)                     ADCHS_ChannelResultGet(ch)
+#define MCHAL_ADCPotResultGet(ch)                        ADCHS_ChannelResultGet(ch)
+#define MCHAL_ADCVdcResultGet(ch)                        ADCHS_ChannelResultGet(ch)
 #define MCHAL_ADCChannelResultIsReady(ch)                ADCHS_ChannelResultIsReady(ch)
+#define MCHAL_ADCEnable( )                              
+#define MCHAL_ADCDisable( )                             
 
 
 
 
-/* Interrupt */
+/************************************ Interrupt *********************************************/
 #define MCHAL_CTRL_IRQ              (INT_SOURCE_ADC_DATA3)
 #define MCHAL_FAULT_IRQ             (INT_SOURCE_PWM1)
 
@@ -119,7 +124,7 @@ extern "C" {
 #define MCHAL_IntClear(irq)         EVIC_SourceStatusClear(irq)
 
 
-/* LED and Switches */
+/******************************* LED and Switches *******************************************/
 
 #define MCHAL_FAULT_LED_SET()       GPIO_RG15_Set()
 #define MCHAL_FAULT_LED_CLEAR()     GPIO_RG15_Clear()
@@ -128,6 +133,7 @@ extern "C" {
 
 #define MCHAL_START_STOP_SWITCH_GET()  GPIO_RD8_Get()
 
+/***************************** X2CScope **************************************************/
 #define MCHAL_X2C_Update()          X2CScope_Update()
 
 // DOM-IGNORE-BEGIN

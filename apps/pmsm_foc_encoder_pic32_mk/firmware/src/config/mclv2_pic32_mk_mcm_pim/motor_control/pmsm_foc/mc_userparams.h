@@ -42,6 +42,7 @@
 #ifndef _USER_HEADER
 #define _USER_HEADER
 
+#include "mc_pmsm_foc_common.h"
 /***********************************************************************************************/
 /*                    include files                                                            */
 /***********************************************************************************************/
@@ -53,14 +54,15 @@
 /***********************************************************************************************/
 /* Algorithm Configuration parameters                                                          */
 /***********************************************************************************************/
+#define BOARD                            (MCLV2)                            
 #define POSITION_FEEDBACK                (SENSORED_ENCODER)
 
 #define TORQUE_MODE                      (DISABLED)  /* If enabled - torque control */
 #define FIELD_WEAKENING                  (DISABLED)  /* If enabled - Field weakening */
 #define ALIGNMENT_METHOD                 (FORCED_ALIGNMENT)  /* alignment method  */
 
-#define Q_AXIS_ALIGNMENT                 (ENABLED)
 
+#define Q_AXIS_ALIGNMENT                 (ENABLED)
 #define CURRENT_MEASUREMENT              (DUAL_SHUNT)  /* Current measurement shunts */
 
 #define POTENTIOMETER_INPUT_ENABLED       ENABLED
@@ -94,7 +96,7 @@
 
 /* Field weakening - Limit for -ve Idref */
 #if(FIELD_WEAKENING == ENABLED)
-#define MAX_FW_NEGATIVE_ID_REF              (float)(-2)
+#define MAX_FW_NEGATIVE_ID_REF              (float)(-2.5)
 #endif
 
 /******************************************************************************/
@@ -102,25 +104,25 @@
 
 /********* D Control Loop Coefficients ****************************************/
 #define     D_CURRCNTR_PTERM           (float)(0.02)
-#define     D_CURRCNTR_ITERM           (float)(0.000099)
+#define     D_CURRCNTR_ITERM           (float)(0.0002)
 #define     D_CURRCNTR_CTERM           (float)(0.5)
 #define     D_CURRCNTR_OUTMAX          (float)(0.98)
 
 /******** Q Control Loop Coefficients ****************************************/
 #define     Q_CURRCNTR_PTERM           (float)(0.02)
-#define     Q_CURRCNTR_ITERM           (float)(0.000099)
+#define     Q_CURRCNTR_ITERM           (float)(0.0002)
 #define     Q_CURRCNTR_CTERM           (float)(0.5)
 #define     Q_CURRCNTR_OUTMAX          (float)(0.98)
 
 /******* Velocity Control Loop Coefficients **********************************/
-#define     SPEEDCNTR_PTERM            (float)(0.005)
-#define     SPEEDCNTR_ITERM            (float)(0.00002)
+#define     SPEEDCNTR_PTERM            (float)(0.002)
+#define     SPEEDCNTR_ITERM            (float)(0.00002 * 0.01f)
 #define     SPEEDCNTR_CTERM            (float)(0.5)
-#define     SPEEDCNTR_OUTMAX           (float)(4.4)
+#define     SPEEDCNTR_OUTMAX           (float)(4)
 
 
 /* First order low pass Filter constants used inside the project             */
-#define KFILTER_ESDQ                   (float)((float)200/(float)32767)
+#define KFILTER_ESDQ                   (float)((float)600/(float)32767)
 #define KFILTER_BEMF_AMPLITUDE         (float)((float)100/(float)32767)
 #define KFILTER_VELESTIM               (float)((float)174/(float)32767)
 #define KFILTER_POT                    (float)((float)250/(float)32767)

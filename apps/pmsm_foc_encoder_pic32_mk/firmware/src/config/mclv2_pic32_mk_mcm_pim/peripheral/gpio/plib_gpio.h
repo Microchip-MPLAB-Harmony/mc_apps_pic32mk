@@ -61,37 +61,41 @@
 // *****************************************************************************
 // *****************************************************************************
 
+
 /*** Macros for GPIO_RG15 pin ***/
 #define GPIO_RG15_Set()               (LATGSET = (1<<15))
 #define GPIO_RG15_Clear()             (LATGCLR = (1<<15))
 #define GPIO_RG15_Toggle()            (LATGINV= (1<<15))
-#define GPIO_RG15_Get()               ((PORTG >> 15) & 0x1)
 #define GPIO_RG15_OutputEnable()      (TRISGCLR = (1<<15))
 #define GPIO_RG15_InputEnable()       (TRISGSET = (1<<15))
+#define GPIO_RG15_Get()               ((PORTG >> 15) & 0x1)
 #define GPIO_RG15_PIN                  GPIO_PIN_RG15
+
 /*** Macros for GPIO_RF5 pin ***/
 #define GPIO_RF5_Set()               (LATFSET = (1<<5))
 #define GPIO_RF5_Clear()             (LATFCLR = (1<<5))
 #define GPIO_RF5_Toggle()            (LATFINV= (1<<5))
-#define GPIO_RF5_Get()               ((PORTF >> 5) & 0x1)
 #define GPIO_RF5_OutputEnable()      (TRISFCLR = (1<<5))
 #define GPIO_RF5_InputEnable()       (TRISFSET = (1<<5))
+#define GPIO_RF5_Get()               ((PORTF >> 5) & 0x1)
 #define GPIO_RF5_PIN                  GPIO_PIN_RF5
+
 /*** Macros for GPIO_RC7 pin ***/
 #define GPIO_RC7_Set()               (LATCSET = (1<<7))
 #define GPIO_RC7_Clear()             (LATCCLR = (1<<7))
 #define GPIO_RC7_Toggle()            (LATCINV= (1<<7))
-#define GPIO_RC7_Get()               ((PORTC >> 7) & 0x1)
 #define GPIO_RC7_OutputEnable()      (TRISCCLR = (1<<7))
 #define GPIO_RC7_InputEnable()       (TRISCSET = (1<<7))
+#define GPIO_RC7_Get()               ((PORTC >> 7) & 0x1)
 #define GPIO_RC7_PIN                  GPIO_PIN_RC7
+
 /*** Macros for GPIO_RG1 pin ***/
 #define GPIO_RG1_Set()               (LATGSET = (1<<1))
 #define GPIO_RG1_Clear()             (LATGCLR = (1<<1))
 #define GPIO_RG1_Toggle()            (LATGINV= (1<<1))
-#define GPIO_RG1_Get()               ((PORTG >> 1) & 0x1)
 #define GPIO_RG1_OutputEnable()      (TRISGCLR = (1<<1))
 #define GPIO_RG1_InputEnable()       (TRISGSET = (1<<1))
+#define GPIO_RG1_Get()               ((PORTG >> 1) & 0x1)
 #define GPIO_RG1_PIN                  GPIO_PIN_RG1
 
 
@@ -260,42 +264,42 @@ void GPIO_PortOutputEnable(GPIO_PORT port, uint32_t mask);
 
 static inline void GPIO_PinWrite(GPIO_PIN pin, bool value)
 {
-    GPIO_PortWrite(pin>>4, (uint32_t)(0x1) << (pin & 0xF), (uint32_t)(value) << (pin & 0xF));
+    GPIO_PortWrite((GPIO_PORT)(pin>>4), (uint32_t)(0x1) << (pin & 0xF), (uint32_t)(value) << (pin & 0xF));
 }
 
 static inline bool GPIO_PinRead(GPIO_PIN pin)
 {
-    return (bool)(((GPIO_PortRead(pin>>4)) >> (pin & 0xF)) & 0x1);
+    return (bool)(((GPIO_PortRead((GPIO_PORT)(pin>>4))) >> (pin & 0xF)) & 0x1);
 }
 
 static inline bool GPIO_PinLatchRead(GPIO_PIN pin)
 {
-    return (bool)((GPIO_PortLatchRead(pin>>4) >> (pin & 0xF)) & 0x1);
+    return (bool)((GPIO_PortLatchRead((GPIO_PORT)(pin>>4)) >> (pin & 0xF)) & 0x1);
 }
 
 static inline void GPIO_PinToggle(GPIO_PIN pin)
 {
-    GPIO_PortToggle(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortToggle((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 static inline void GPIO_PinSet(GPIO_PIN pin)
 {
-    GPIO_PortSet(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortSet((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 static inline void GPIO_PinClear(GPIO_PIN pin)
 {
-    GPIO_PortClear(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortClear((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 static inline void GPIO_PinInputEnable(GPIO_PIN pin)
 {
-    GPIO_PortInputEnable(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortInputEnable((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 static inline void GPIO_PinOutputEnable(GPIO_PIN pin)
 {
-    GPIO_PortOutputEnable(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortOutputEnable((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 

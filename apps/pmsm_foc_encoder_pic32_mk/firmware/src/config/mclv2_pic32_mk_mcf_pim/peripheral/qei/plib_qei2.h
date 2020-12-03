@@ -64,26 +64,26 @@
 
 void QEI2_Initialize (void);
 
-void QEI2_Start();
+void QEI2_Start(void);
 
-void QEI2_Stop();
+void QEI2_Stop(void);
 
-__STATIC_INLINE uint32_t QEI2_PositionGet()
+__STATIC_INLINE uint32_t QEI2_PositionGet(void)
 {
     return (POS2CNT);
 }
 
-__STATIC_INLINE uint32_t QEI2_VelocityGet()
+__STATIC_INLINE uint32_t QEI2_VelocityGet(void)
 {
     return (VEL2CNT);
 }
 
-__STATIC_INLINE uint32_t QEI2_RevolutionsGet()
+__STATIC_INLINE uint32_t QEI2_RevolutionsGet(void)
 {
     return (INDX2CNT);
 }
 
-uint32_t QEI2_PulseIntervalGet();
+uint32_t QEI2_PulseIntervalGet(void);
 
 void QEI2_PositionWindowSet(uint32_t high_threshold, uint32_t low_threshold);
 

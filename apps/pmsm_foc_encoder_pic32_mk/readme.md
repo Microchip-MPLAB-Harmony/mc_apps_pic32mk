@@ -1,9 +1,8 @@
 ---
-parent: Harmony 3 motor control application examples
+parent: Motor Control Application Examples for PIC32MK family
 title: PMSM FOC using Quadrature Encoder
 has_children: false
 has_toc: false
-nav_order: 1
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
@@ -68,7 +67,7 @@ The following block diagram shows the software realization of the FOC algorithm.
 
 ## Software Design
 
-Please refer to [PMSM_FOC Library]() for state machine, flow charts and detailed software design. 
+Please refer to [PMSM_FOC Library](https://microchip-mplab-harmony.github.io/motor_control/) for state machine, flow charts and detailed software design. 
 
 ## Development Kits
 

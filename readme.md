@@ -1,4 +1,11 @@
-﻿# Microchip MPLAB® Harmony 3 Motor Control Application Examples for PIC32MK family
+﻿---
+title: Motor Control Application Examples for PIC32MK family
+nav_order: 1
+has_children: true
+has_toc: false
+---
+
+# Microchip MPLAB® Harmony 3 Motor Control Application Examples for PIC32MK family
 
 MPLAB Harmony 3 is an extension of the MPLAB® ecosystem for creating
 embedded firmware solutions for Microchip 32-bit SAM and PIC32 microcontroller
@@ -18,13 +25,12 @@ notes and licensing information.
  - [Release Notes](./release_notes.md)
  - [MPLAB Harmony License](mplab_harmony_license.md)
 
-# Contents Summary
+## Contents Summary
 
 | Folder     | Description                                               |
 |------------|-----------------------------------------------------------|
 | apps       | Demonstration applications for Motor Control              |
-| doc        | Demonstration user guide in .chm format                   |
-| docs       | Demonstration user guide in HTML format                   |
+| docs       | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/mc_apps_pic32mk/) of this repository for viewing it online.|
 |||
 
 
@@ -33,7 +39,6 @@ notes and licensing information.
 The following applications are provided to demonstrate the typical or interesting usage models of motor control algorithms.
 These applications are generated using PMSM_FOC component and are fully configurable. 
 
-### PIC32MK Family
 | Name | Description|
 |:---------|:-----------|
 | [PMSM FOC using PLL Estimator](apps/pmsm_foc_pll_estimator_pic32_mk/readme.md) | Sensorless Field Oriented Control of PMSM using PLL Estimator |

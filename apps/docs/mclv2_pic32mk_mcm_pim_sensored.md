@@ -1,3 +1,10 @@
+---
+parent: Hardware Setup
+title: MCLV2 Development Board Setup for Sensored Mode PIC32MK MCM
+has_children: false
+has_toc: false
+---
+
 # MCLV2 Development Board
 ## Setting up the hardware
 

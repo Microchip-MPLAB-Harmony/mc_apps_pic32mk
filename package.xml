@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Package name="replaceme">
+<Package name="mc_apps_pic32mk">
     <Dependencies>
+        <Dependency name="motor_control" version="v3.6.0"/>
     </Dependencies>
 </Package>

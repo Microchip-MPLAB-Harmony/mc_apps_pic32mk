@@ -58,7 +58,7 @@
           </logicalFolder>
           <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/definitions.h</itemPath>
-          <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\device.h</itemPath>
+          <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/device.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
@@ -76,7 +76,7 @@
         <logicalFolder name="f1"
                        displayName="mclv2_pic32_mk_mcm_pim"
                        projectFiles="true">
-          <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\p32MK1024MCM100.ld</itemPath>
+          <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/p32MK1024MCM100.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -144,19 +144,19 @@
       <logicalFolder name="f1"
                      displayName="mclv2_pic32_mk_mcm_pim.mhc"
                      projectFiles="true">
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\adchs.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\core.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\dfp.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\GraphSettings.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\mcpwm.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\pmsm_foc.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\project.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\settings.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\uart2.yml</itemPath>
-        <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\mclv2_pic32_mk_mcm_pim.mhc\X2CScope.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/adchs.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/core.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/mcpwm.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/pmsm_foc.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/project.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/uart2.yml</itemPath>
+        <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/mclv2_pic32_mk_mcm_pim.mhc/X2CScope.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>..\src\config\mclv2_pic32_mk_mcm_pim\harmony-manifest-success.yml</itemPath>
+      <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>

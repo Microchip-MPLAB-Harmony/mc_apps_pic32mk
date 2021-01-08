@@ -39,11 +39,11 @@ notes and licensing information.
 The following applications are provided to demonstrate the typical or interesting usage models of motor control algorithms.
 These applications are generated using PMSM_FOC component and are fully configurable. 
 
-| Name | Description|
-|:---------|:-----------|
-| [PMSM FOC using PLL Estimator](apps/pmsm_foc_pll_estimator_pic32_mk/readme.md) | Sensorless Field Oriented Control of PMSM using PLL Estimator |
-| [PMSM FOC using Quadrature Encoder](apps/pmsm_foc_encoder_pic32_mk/readme.md) | Sensor Field Oriented Control of PMSM using Quadrature Encoder |
-|||
+| Name | Description|Control Board|Inverter Board|
+|:-----|:-----------|:------------|:-------------|
+| [PMSM FOC using PLL Estimator](apps/pmsm_foc_pll_estimator_pic32_mk/readme.md) | Sensorless Field Oriented Control of PMSM using PLL Estimator |[PIC32MK MCM Motor Control Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211)| [dsPICDEM™ MCLV-2 Support](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2) <br  />[dsPICDEM™ MCHV-3 Support](https://www.microchip.com/developmenttools/ProductDetails/dm330023-3) |
+| [PMSM FOC using Quadrature Encoder](apps/pmsm_foc_encoder_pic32_mk/readme.md) | Sensor Field Oriented Control of PMSM using Quadrature Encoder |[PIC32MK MCM Motor Control Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211)| [dsPICDEM™ MCLV-2 Support](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2) <br  />[dsPICDEM™ MCHV-3 Support](https://www.microchip.com/developmenttools/ProductDetails/dm330023-3) |
+|||||
 
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/mc/blob/master/mplab_harmony_license.md)

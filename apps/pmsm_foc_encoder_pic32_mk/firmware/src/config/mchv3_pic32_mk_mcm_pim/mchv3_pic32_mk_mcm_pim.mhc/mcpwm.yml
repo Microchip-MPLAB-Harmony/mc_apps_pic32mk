@@ -150,6 +150,33 @@ children:
       children:
       - type: Dynamic
         attributes: {id: mcpwm, value: 'true'}
+  - type: Comment
+    attributes: {id: MCPWM_CLOCK_ENABLE_COMMENT1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Comment
+    attributes: {id: MCPWM_CLOCK_ENABLE_COMMENT2}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Comment
+    attributes: {id: MCPWM_CLOCK_ENABLE_COMMENT3}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
   - type: Integer
     attributes: {id: MCPWM_EVIC1}
     children:

@@ -102,8 +102,8 @@ void MCPWM_Initialize (void)
     PHASE1 = 0;
 
     /* Dead Time */
-    DTR1 = 120;
-    ALTDTR1 = 120;
+    DTR1 = 240;
+    ALTDTR1 = 240;
 
     /* Trigger Generator */
     TRGCON1 = 0x400;
@@ -160,8 +160,8 @@ void MCPWM_Initialize (void)
     PHASE2 = 0;
 
     /* Dead Time */
-    DTR2 = 120;
-    ALTDTR2 = 120;
+    DTR2 = 240;
+    ALTDTR2 = 240;
 
     /* Trigger Generator */
     TRGCON2 = 0x400;
@@ -215,8 +215,8 @@ void MCPWM_Initialize (void)
     PHASE3 = 0;
 
     /* Dead Time */
-    DTR3 = 120;
-    ALTDTR3 = 120;
+    DTR3 = 240;
+    ALTDTR3 = 240;
 
     /* Trigger Generator */
     TRGCON3 = 0x400;

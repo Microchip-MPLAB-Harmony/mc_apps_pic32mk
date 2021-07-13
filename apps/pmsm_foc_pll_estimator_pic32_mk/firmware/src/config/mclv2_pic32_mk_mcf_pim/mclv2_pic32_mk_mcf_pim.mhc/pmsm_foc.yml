@@ -32,6 +32,15 @@ children:
       children:
       - type: Dynamic
         attributes: {id: pmsm_foc, value: '2000.0'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_DCBUSV_CH}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '53'}
   - type: KeyValueSet
     attributes: {id: MCPMSMFOC_DIRECTION_BUTTON}
     children:
@@ -60,15 +69,6 @@ children:
       children:
       - type: User
         attributes: {value: 'false'}
-  - type: Boolean
-    attributes: {id: MCPMSMFOC_FLYING_START_CL_AUTOCALCULATE}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'false'}
   - type: Float
     attributes: {id: MCPMSMFOC_FLYING_START_CL_BANDWIDTH}
     children:
@@ -76,96 +76,34 @@ children:
       children:
       - type: Dynamic
         attributes: {id: pmsm_foc, value: '2000.0'}
-  - type: File
-    attributes: {id: MCPMSMFOC_FLYING_START_HEADER}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'false'}
-  - type: File
-    attributes: {id: MCPMSMFOC_FLYING_START_INIT_SOURCE}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'false'}
-  - type: Menu
-    attributes: {id: MCPMSMFOC_FLYING_START_Id_Menu}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'false'}
-  - type: Menu
-    attributes: {id: MCPMSMFOC_FLYING_START_Iq_Menu}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'false'}
   - type: Float
-    attributes: {id: MCPMSMFOC_FLYING_START_NULL_BRAKING_TIME}
+    attributes: {id: MCPMSMFOC_FLYING_START_ID_KI}
     children:
-    - type: Attributes
+    - type: Values
       children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'false'}
-  - type: Boolean
-    attributes: {id: MCPMSMFOC_FLYING_START_REGENERATIVE_BRAKING_ENABLE}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'false'}
-  - type: File
-    attributes: {id: MCPMSMFOC_FLYING_START_SOURCE}
-    children:
-    - type: Attributes
-      children:
-      - type: Boolean
-        attributes: {id: enabled}
-        children:
-        - {type: Value, value: 'false'}
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '9.9E-4'}
   - type: Float
-    attributes: {id: MCPMSMFOC_FLYING_START_SPEED}
+    attributes: {id: MCPMSMFOC_FLYING_START_ID_KP}
     children:
-    - type: Attributes
+    - type: Values
       children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'false'}
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '0.2'}
   - type: Float
-    attributes: {id: MCPMSMFOC_FLYING_START_STARTUP_CURRENT}
+    attributes: {id: MCPMSMFOC_FLYING_START_IQ_KI}
     children:
-    - type: Attributes
+    - type: Values
       children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'false'}
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '9.9E-4'}
   - type: Float
-    attributes: {id: MCPMSMFOC_FLYING_START_TIME}
+    attributes: {id: MCPMSMFOC_FLYING_START_IQ_KP}
     children:
-    - type: Attributes
+    - type: Values
       children:
-      - type: Boolean
-        attributes: {id: visible}
-        children:
-        - {type: Value, value: 'false'}
+      - type: Dynamic
+        attributes: {id: pmsm_foc, value: '0.2'}
   - type: Float
     attributes: {id: MCPMSMFOC_ID_KI}
     children:
@@ -208,6 +146,33 @@ children:
       children:
       - type: Dynamic
         attributes: {id: pmsm_foc, value: '0'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_PHASEU_CH}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '53'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_PHASEV_CH}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '53'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_POT_CH}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '53'}
   - type: String
     attributes: {id: MCPMSMFOC_PWMPLIB}
     children:
@@ -222,6 +187,33 @@ children:
       children:
       - type: Dynamic
         attributes: {id: pmsm_foc, value: '14'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_PWM_PH_U}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '11'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_PWM_PH_V}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '11'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_PWM_PH_W}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '11'}
   - type: KeyValueSet
     attributes: {id: MCPMSMFOC_START_BUTTON}
     children:

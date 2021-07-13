@@ -558,6 +558,114 @@ children:
       - type: Dynamic
         attributes: {id: mcpwm, value: '1024'}
   - type: Integer
+    attributes: {id: PDC10__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC11__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC12__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC1__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC2__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC3__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC4__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC5__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC6__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC7__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC8__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: PDC9__PDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
     attributes: {id: PTPER__PTPER}
     children:
     - type: Values
@@ -669,6 +777,114 @@ children:
       children:
       - type: Dynamic
         attributes: {id: mcpwm, value: MCPWM_Stop}
+  - type: Integer
+    attributes: {id: SDC10__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC11__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC12__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC1__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC2__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC3__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC4__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC5__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC6__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC7__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC8__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
+  - type: Integer
+    attributes: {id: SDC9__SDC}
+    children:
+    - type: Attributes
+      children:
+      - type: Integer
+        attributes: {id: max}
+        children:
+        - {type: Value, value: '2000'}
   - type: KeyValueSet
     attributes: {id: TRGCON1__TRGSEL}
     children:

@@ -103,12 +103,14 @@ typedef struct
     int32_t                         velocity;
     int32_t                         synCounter;
 
+
 }tMCRPOS_STATE_SIGNAL_S;
 
 typedef struct
 {
     float                            angle;
     float                            speed;
+    float                            mechSpeedRPM;    
     float                            acceleration;
 }tMCRPOS_OUTPUT_SIGNAL_S;
 

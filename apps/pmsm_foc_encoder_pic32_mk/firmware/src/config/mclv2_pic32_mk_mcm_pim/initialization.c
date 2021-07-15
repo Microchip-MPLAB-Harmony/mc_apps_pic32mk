@@ -91,11 +91,6 @@
 #pragma config FPLLICLK =   PLL_POSC
 #pragma config FPLLMULT =   MUL_60
 #pragma config FPLLODIV =   DIV_4
-#pragma config DSBOREN =    ON
-#pragma config DSWDTPS =    DSPS32
-#pragma config DSWDTOSC =   LPRC
-#pragma config DSWDTEN =    OFF
-#pragma config FDSEN =      ON
 #pragma config BORSEL =     HIGH
 #pragma config UPLLEN =     OFF
 

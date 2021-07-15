@@ -57,15 +57,17 @@
 #define BOARD                            (MCLV2)                            
 #define POSITION_FEEDBACK                (SENSORED_ENCODER)
 
-#define TORQUE_MODE                      (DISABLED)  /* If enabled - torque control */
+#define CONTROL_LOOP                     (SPEED_LOOP)
 #define FIELD_WEAKENING                  (DISABLED)  /* If enabled - Field weakening */
-#define ALIGNMENT_METHOD                 (FORCED_ALIGNMENT)  /* alignment method  */
+#define ALIGNMENT_METHOD                 (Q_AXIS)  /* alignment method  */
 
 
-#define Q_AXIS_ALIGNMENT                 (ENABLED)
 #define CURRENT_MEASUREMENT              (DUAL_SHUNT)  /* Current measurement shunts */
 
 #define POTENTIOMETER_INPUT_ENABLED       ENABLED
+
+#define SPEED_REF_RPM                     (float)1000   /* Speed Ref */
+
 /***********************************************************************************************/
 /* Motor Configuration Parameters */
 /***********************************************************************************************/
@@ -85,10 +87,12 @@
 
 /* Motor Start-up configuration parameters */
 #define LOCK_TIME_IN_SEC                (2)   /* Startup - Rotor alignment time */
+
+#define OPEN_LOOP_END_SPEED_RPM         (500) /* Startup - Control loop switches to close loop at this speed */
+#define OPEN_LOOP_RAMP_TIME_IN_SEC      (5)   /* Startup - Time to reach OPEN_LOOP_END_SPEED_RPM in seconds */
+
 #define Q_CURRENT_REF_OPENLOOP          (0.4) /* Startup - Motor start to ramp up in current control mode */
-#if (TORQUE_MODE == ENABLED)
-#define Q_CURRENT_REF_TORQUE            (0.2)   /* Iq ref for torque mode */
-#endif
+
 
 /* Current ramp parameters for open loop to close loop transition  */
 #define Q_CURRENT_OPENLOOP_STEP                    ((float)0.001)
@@ -96,7 +100,7 @@
 
 /* Field weakening - Limit for -ve Idref */
 #if(FIELD_WEAKENING == ENABLED)
-#define MAX_FW_NEGATIVE_ID_REF              (float)(-2.5)
+#define MAX_FW_NEGATIVE_ID_REF              (float)(-1.5)
 #endif
 
 /******************************************************************************/
@@ -122,9 +126,9 @@
 
 
 /* First order low pass Filter constants used inside the project             */
-#define KFILTER_ESDQ                   (float)((float)600/(float)32767)
+#define KFILTER_ESDQ                   (float)((float)0.0183)
 #define KFILTER_BEMF_AMPLITUDE         (float)((float)100/(float)32767)
-#define KFILTER_VELESTIM               (float)((float)174/(float)32767)
+#define KFILTER_VELESTIM               (float)((float)0.0053)
 #define KFILTER_POT                    (float)((float)250/(float)32767)
 
 /***********************************************************************************************/

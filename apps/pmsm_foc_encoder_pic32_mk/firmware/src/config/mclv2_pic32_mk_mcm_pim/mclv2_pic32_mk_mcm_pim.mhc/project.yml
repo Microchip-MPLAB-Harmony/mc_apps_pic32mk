@@ -1,403 +1,410 @@
 files:
 - generatedChecksum: DBEB484D45D924F226145E41226877FB
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/X2CCode/X2CScope
   name: X2CScope.c
-  physicalPath: X2CCode\X2CScope\src
+  physicalPath: X2CCode/X2CScope/src
   security: NON_SECURE
   type: SOURCE
   userChecksum: DBEB484D45D924F226145E41226877FB
 - generatedChecksum: 8B8EDEA47D6019608B1C479D3DA3B114
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/X2CCode/X2CScope
   name: X2CScopeCommunication.c
-  physicalPath: X2CCode\X2CScope\src
+  physicalPath: X2CCode/X2CScope/src
   security: NON_SECURE
   type: SOURCE
   userChecksum: 8B8EDEA47D6019608B1C479D3DA3B114
-- generatedChecksum: C2B88D9215301ECE3DC36E4B82F2791C
-  logicalPath: config\mclv2_pic32_mk_mcm_pim
+- generatedChecksum: 99DB74296DF9943C474F4F03A700C790
+  logicalPath: config/mclv2_pic32_mk_mcm_pim
   name: exceptions.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C2B88D9215301ECE3DC36E4B82F2791C
-- generatedChecksum: FAF27B6B3FFD7A73C5AF4A5608E275E1
-  logicalPath: config\mclv2_pic32_mk_mcm_pim
+  userChecksum: 99DB74296DF9943C474F4F03A700C790
+- generatedChecksum: 43827F4C418167B0F8371351B14C94D6
+  logicalPath: config/mclv2_pic32_mk_mcm_pim
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: FAF27B6B3FFD7A73C5AF4A5608E275E1
-- generatedChecksum: 7EFD9E3C27BB84C505A9EC7173A83AD7
-  logicalPath: config\mclv2_pic32_mk_mcm_pim
+  userChecksum: 43827F4C418167B0F8371351B14C94D6
+- generatedChecksum: AF7ABE441ABD363FC31E60780F4A20CE
+  logicalPath: config/mclv2_pic32_mk_mcm_pim
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7EFD9E3C27BB84C505A9EC7173A83AD7
+  userChecksum: AF7ABE441ABD363FC31E60780F4A20CE
 - generatedChecksum: null
   logicalPath: ''
   name: main_mclv2.c
-  physicalPath: ..\..
+  physicalPath: ../..
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
-- generatedChecksum: A8FF948F34A300CE88F7EDE678F66492
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+- generatedChecksum: 2A3C2EC0F6FEDE3F2C6DE761BE1859DD
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_control_loop.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: A8FF948F34A300CE88F7EDE678F66492
+  userChecksum: 2A3C2EC0F6FEDE3F2C6DE761BE1859DD
 - generatedChecksum: C72E5BF09658C7E8E0866749A9806FAD
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_currmeasurement.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
   userChecksum: C72E5BF09658C7E8E0866749A9806FAD
 - generatedChecksum: 030A53782FE4339B2A528B9E2E8779A6
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_errorhandler.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
   userChecksum: 030A53782FE4339B2A528B9E2E8779A6
 - generatedChecksum: E57D238B7F022F210CE69D989AB3730E
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_generic_lib.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
   userChecksum: E57D238B7F022F210CE69D989AB3730E
 - generatedChecksum: 046470AD5272DEB5B219C3783E57A081
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_lib.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
   userChecksum: 046470AD5272DEB5B219C3783E57A081
 - generatedChecksum: DB974AE28FF3C709864895902C80709A
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_picontrol.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
   userChecksum: DB974AE28FF3C709864895902C80709A
-- generatedChecksum: 3C3A8DD52E53B42E224A173ECAD8CE5F
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+- generatedChecksum: A3B3FD793809661E55D0BDF6A72B1026
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_pmsm_foc.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3C3A8DD52E53B42E224A173ECAD8CE5F
+  userChecksum: A3B3FD793809661E55D0BDF6A72B1026
 - generatedChecksum: 4D909A989ADD6A5A7EF0ECA93F19FAAE
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_pwm.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4D909A989ADD6A5A7EF0ECA93F19FAAE
-- generatedChecksum: 1A67E6B32FF914F663D3100ADDCC8337
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+- generatedChecksum: D91A88836740D74A459793BBFE48559D
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_rotorposition.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 1A67E6B32FF914F663D3100ADDCC8337
-- generatedChecksum: 8F81C5677A93AAC9CA2F0D22C4F0D517
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  userChecksum: D91A88836740D74A459793BBFE48559D
+- generatedChecksum: 73E40051017633CC5F91D81852226E95
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_speed.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8F81C5677A93AAC9CA2F0D22C4F0D517
+  userChecksum: 73E40051017633CC5F91D81852226E95
 - generatedChecksum: AC6BCEE3FBA8DE5023D13C3EB1EA76A0
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_voltagemeasurement.c
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: SOURCE
   userChecksum: AC6BCEE3FBA8DE5023D13C3EB1EA76A0
 - generatedChecksum: A11AD61211395ADD6ABFC381B067F8DB
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\adchs
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/adchs
   name: plib_adchs.c
-  physicalPath: peripheral\adchs
+  physicalPath: peripheral/adchs
   security: NON_SECURE
   type: SOURCE
   userChecksum: A11AD61211395ADD6ABFC381B067F8DB
 - generatedChecksum: 8E1BEC88D1705DDD3BB9EE563D34001D
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\clk
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/clk
   name: plib_clk.c
-  physicalPath: peripheral\clk
+  physicalPath: peripheral/clk
   security: NON_SECURE
   type: SOURCE
   userChecksum: 8E1BEC88D1705DDD3BB9EE563D34001D
-- generatedChecksum: 16FF4D54461CA628FC86D6C5667909E4
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\evic
+- generatedChecksum: 4356AD00924CB7D98FF00899084312AC
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/evic
   name: plib_evic.c
-  physicalPath: peripheral\evic
+  physicalPath: peripheral/evic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 16FF4D54461CA628FC86D6C5667909E4
+  userChecksum: 4356AD00924CB7D98FF00899084312AC
 - generatedChecksum: BE4AF4750729039C847442A37B59D3CC
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\gpio
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/gpio
   name: plib_gpio.c
-  physicalPath: peripheral\gpio
+  physicalPath: peripheral/gpio
   security: NON_SECURE
   type: SOURCE
   userChecksum: BE4AF4750729039C847442A37B59D3CC
 - generatedChecksum: 14EC08B2B2233854BC4CDD8F98BA1892
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/mcpwm
   name: plib_mcpwm.c
-  physicalPath: peripheral\mcpwm
+  physicalPath: peripheral/mcpwm
   security: NON_SECURE
   type: SOURCE
   userChecksum: 14EC08B2B2233854BC4CDD8F98BA1892
 - generatedChecksum: 7D9E7E1EF7B91F5B453BE4242B04A2B3
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\qei
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/qei
   name: plib_qei2.c
-  physicalPath: peripheral\qei
+  physicalPath: peripheral/qei
   security: NON_SECURE
   type: SOURCE
   userChecksum: 7D9E7E1EF7B91F5B453BE4242B04A2B3
-- generatedChecksum: 31E61629E04490FBFB0ADD0234733309
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\uart
+- generatedChecksum: 0E74E8218E54427BDBAE8B4238D55E4C
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/uart
   name: plib_uart2.c
-  physicalPath: peripheral\uart
+  physicalPath: peripheral/uart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 31E61629E04490FBFB0ADD0234733309
-- generatedChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\stdio
+  userChecksum: 0E74E8218E54427BDBAE8B4238D55E4C
+- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
+  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
 - generatedChecksum: 5591C3627E1EAF04874E2BAA428546AB
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/X2CCode/X2CScope
   name: X2CScope.h
-  physicalPath: X2CCode\X2CScope\inc
+  physicalPath: X2CCode/X2CScope/inc
   security: NON_SECURE
   type: HEADER
   userChecksum: 5591C3627E1EAF04874E2BAA428546AB
 - generatedChecksum: CA44DEA5CA47431DCFE19A280CE9644A
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/X2CCode/X2CScope
   name: X2CScopeCommunication.h
-  physicalPath: X2CCode\X2CScope\inc
+  physicalPath: X2CCode/X2CScope/inc
   security: NON_SECURE
   type: HEADER
   userChecksum: CA44DEA5CA47431DCFE19A280CE9644A
-- generatedChecksum: 13D69689D19CEB2E720D33139F226BA9
-  logicalPath: config\mclv2_pic32_mk_mcm_pim
+- generatedChecksum: DFB7E02959A4FBE1B6C806D1F2C4AE12
+  logicalPath: config/mclv2_pic32_mk_mcm_pim
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 13D69689D19CEB2E720D33139F226BA9
-- generatedChecksum: 5D5C52527AB1435153DB9B50ADE6B79D
-  logicalPath: config\mclv2_pic32_mk_mcm_pim
+  userChecksum: DFB7E02959A4FBE1B6C806D1F2C4AE12
+- generatedChecksum: E189C26B2269F8DE46033CCD0621958D
+  logicalPath: config/mclv2_pic32_mk_mcm_pim
   name: device.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5D5C52527AB1435153DB9B50ADE6B79D
+  userChecksum: E189C26B2269F8DE46033CCD0621958D
+- generatedChecksum: 4CF4A86296482D5331331BA301C20BB2
+  logicalPath: config/mclv2_pic32_mk_mcm_pim
+  name: interrupts.h
+  physicalPath: ''
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 4CF4A86296482D5331331BA301C20BB2
 - generatedChecksum: E75DF0D090D18FD603E217071A221A77
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_control_loop.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: E75DF0D090D18FD603E217071A221A77
 - generatedChecksum: CF0D0D9364EE61213CCA9BE75D92B9C3
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_currmeasurement.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: CF0D0D9364EE61213CCA9BE75D92B9C3
-- generatedChecksum: 21A4814C8FE716D13D8FCC30F5BEB5BF
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+- generatedChecksum: 2E5F1BC755A3590C2801BC7F4423D3A7
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_derivedparams.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 21A4814C8FE716D13D8FCC30F5BEB5BF
+  userChecksum: 2E5F1BC755A3590C2801BC7F4423D3A7
 - generatedChecksum: 22ADBB46B4B767FC49BA2C1F0D039727
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_errorhandler.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: 22ADBB46B4B767FC49BA2C1F0D039727
 - generatedChecksum: BE619BF7219A4C0A4155D16D53073C45
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_generic_lib.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: BE619BF7219A4C0A4155D16D53073C45
 - generatedChecksum: A73DD7D42870634FCBD2415720B294DC
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_hal.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: A73DD7D42870634FCBD2415720B294DC
 - generatedChecksum: E1CF71AE8C891A0CC5E7DE38C6F8A130
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_lib.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: E1CF71AE8C891A0CC5E7DE38C6F8A130
 - generatedChecksum: 25A5AB582A61262F42B2CA47E12163BC
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_picontrol.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: 25A5AB582A61262F42B2CA47E12163BC
 - generatedChecksum: 7926A8F2E6252633399B209881C6BFFD
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_pmsm_foc.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: 7926A8F2E6252633399B209881C6BFFD
-- generatedChecksum: 5FAD54D8E02B7E6C608149A7ACA45D53
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+- generatedChecksum: DFCD92B0F3D459C8EE4C0C15E0302595
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_pmsm_foc_common.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5FAD54D8E02B7E6C608149A7ACA45D53
+  userChecksum: DFCD92B0F3D459C8EE4C0C15E0302595
 - generatedChecksum: FC4DB07EE52EE9E6D50B06C904709C1B
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_pwm.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: FC4DB07EE52EE9E6D50B06C904709C1B
-- generatedChecksum: B29E6AAE255CBD9FA9B81019CB7E0909
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+- generatedChecksum: 3CCE58761F5D26B20C17DEE4AB2E90D8
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_rotorposition.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
-  userChecksum: B29E6AAE255CBD9FA9B81019CB7E0909
-- generatedChecksum: 961A9231A4979273856BB1654A78E519
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  userChecksum: 3CCE58761F5D26B20C17DEE4AB2E90D8
+- generatedChecksum: 947E7CBEF8880C540C586ADB6FE35297
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_speed.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 961A9231A4979273856BB1654A78E519
-- generatedChecksum: 8AD8E1AA50300D3713751F75354773BD
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  userChecksum: 947E7CBEF8880C540C586ADB6FE35297
+- generatedChecksum: C16215E94DE8AB60BE046BA2582347C5
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_userparams.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
-  userChecksum: 8AD8E1AA50300D3713751F75354773BD
+  userChecksum: C16215E94DE8AB60BE046BA2582347C5
 - generatedChecksum: 8AFE5CA5C018707864411FDEAF49C650
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc
   name: mc_voltagemeasurement.h
-  physicalPath: motor_control\pmsm_foc
+  physicalPath: motor_control/pmsm_foc
   security: NON_SECURE
   type: HEADER
   userChecksum: 8AFE5CA5C018707864411FDEAF49C650
 - generatedChecksum: 74058744638925EEB20F58B4328F1B68
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\adchs
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/adchs
   name: plib_adchs.h
-  physicalPath: peripheral\adchs
+  physicalPath: peripheral/adchs
   security: NON_SECURE
   type: HEADER
   userChecksum: 74058744638925EEB20F58B4328F1B68
 - generatedChecksum: 5485BB926F2ECC7BD1D7B2DE51ED2795
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\adchs
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/adchs
   name: plib_adchs_common.h
-  physicalPath: peripheral\adchs
+  physicalPath: peripheral/adchs
   security: NON_SECURE
   type: HEADER
   userChecksum: 5485BB926F2ECC7BD1D7B2DE51ED2795
 - generatedChecksum: 7066CC390335CF75126E2A50C46E3BDD
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\clk
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/clk
   name: plib_clk.h
-  physicalPath: peripheral\clk
+  physicalPath: peripheral/clk
   security: NON_SECURE
   type: HEADER
   userChecksum: 7066CC390335CF75126E2A50C46E3BDD
-- generatedChecksum: D270E1FFFF82CBEE613690DC9636B8F9
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\evic
+- generatedChecksum: 4D592E1C42727324FE2F5EB681F6C5AA
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/evic
   name: plib_evic.h
-  physicalPath: peripheral\evic
+  physicalPath: peripheral/evic
   security: NON_SECURE
   type: HEADER
-  userChecksum: D270E1FFFF82CBEE613690DC9636B8F9
+  userChecksum: 4D592E1C42727324FE2F5EB681F6C5AA
 - generatedChecksum: 21A7B3C83BE7ED10FDDEF07C8FE9D141
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\gpio
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/gpio
   name: plib_gpio.h
-  physicalPath: peripheral\gpio
+  physicalPath: peripheral/gpio
   security: NON_SECURE
   type: HEADER
   userChecksum: 21A7B3C83BE7ED10FDDEF07C8FE9D141
 - generatedChecksum: 12CBE2439F4C4DECD2B376033BBADA45
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/mcpwm
   name: plib_mcpwm.h
-  physicalPath: peripheral\mcpwm
+  physicalPath: peripheral/mcpwm
   security: NON_SECURE
   type: HEADER
   userChecksum: 12CBE2439F4C4DECD2B376033BBADA45
 - generatedChecksum: 8C0682DB8DD38F7C09771C63347D06FF
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/mcpwm
   name: plib_mcpwm_common.h
-  physicalPath: peripheral\mcpwm
+  physicalPath: peripheral/mcpwm
   security: NON_SECURE
   type: HEADER
   userChecksum: 8C0682DB8DD38F7C09771C63347D06FF
 - generatedChecksum: 4B8232F9FE5AC341D05549F00197BAAE
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\qei
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/qei
   name: plib_qei2.h
-  physicalPath: peripheral\qei
+  physicalPath: peripheral/qei
   security: NON_SECURE
   type: HEADER
   userChecksum: 4B8232F9FE5AC341D05549F00197BAAE
 - generatedChecksum: D6A76BFCD1B06AC07959D1D4CB4D2B3E
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\qei
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/qei
   name: plib_qei_common.h
-  physicalPath: peripheral\qei
+  physicalPath: peripheral/qei
   security: NON_SECURE
   type: HEADER
   userChecksum: D6A76BFCD1B06AC07959D1D4CB4D2B3E
 - generatedChecksum: 687F99E456839E29578ACB606A2A0083
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\uart
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/uart
   name: plib_uart2.h
-  physicalPath: peripheral\uart
+  physicalPath: peripheral/uart
   security: NON_SECURE
   type: HEADER
   userChecksum: 687F99E456839E29578ACB606A2A0083
-- generatedChecksum: CB4B34D1ABCE74BF62A89A7FF936BE91
-  logicalPath: config\mclv2_pic32_mk_mcm_pim\peripheral\uart
+- generatedChecksum: 67EEAF539A53B6B8FD7B600ACCB3F3CA
+  logicalPath: config/mclv2_pic32_mk_mcm_pim/peripheral/uart
   name: plib_uart_common.h
-  physicalPath: peripheral\uart
+  physicalPath: peripheral/uart
   security: NON_SECURE
   type: HEADER
-  userChecksum: CB4B34D1ABCE74BF62A89A7FF936BE91
+  userChecksum: 67EEAF539A53B6B8FD7B600ACCB3F3CA
 - generatedChecksum: 2C8543317B3F067432097AB9BD3E8672
-  logicalPath: config\mclv2_pic32_mk_mcm_pim
+  logicalPath: config/mclv2_pic32_mk_mcm_pim
   name: toolchain_specifics.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
   userChecksum: 2C8543317B3F067432097AB9BD3E8672
-- generatedChecksum: 4E94809C0DA4961DBBC8AA123A67CBF0
-  logicalPath: config\mclv2_pic32_mk_mcm_pim
+- generatedChecksum: 124DEAAE0F75B72DC018E0DDCE8AB35D
+  logicalPath: config/mclv2_pic32_mk_mcm_pim
   name: p32MK1024MCM100.ld
   physicalPath: ''
   security: NON_SECURE
   type: LINKER
-  userChecksum: 4E94809C0DA4961DBBC8AA123A67CBF0
+  userChecksum: 124DEAAE0F75B72DC018E0DDCE8AB35D
 format_version: v1.0
 libraries:
 - name: libPIC32MK_X2CScope.a

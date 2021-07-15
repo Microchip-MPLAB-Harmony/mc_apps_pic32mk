@@ -159,10 +159,10 @@ tMCAPP_STATUS_E MCRPOS_FieldAlignment( tMCRPOS_ROTOR_ALIGN_OUTPUT_S * const alig
 {
     tMCAPP_STATUS_E status = MCAPP_IN_PROGRESS ;
 
-  #if( FORCED_ALIGNMENT == ALIGNMENT_METHOD)
+  #if( ALIGNMENT_METHOD == Q_AXIS || ALIGNMENT_METHOD == D_AXIS)
     if ( gMCRPOS_RotorAlignState.startupLockCount < ( 0.5* gMCRPOS_RotorAlignParam.lockTimeCount))
     {
-      #if(ENABLED == Q_AXIS_ALIGNMENT )
+      #if(ALIGNMENT_METHOD == Q_AXIS )
         alignOutput->idRef =  0.0f;
         alignOutput->iqRef =  gMCRPOS_RotorAlignParam.lockCurrent;
         alignOutput->angle = (M_PI);
@@ -176,7 +176,7 @@ tMCAPP_STATUS_E MCRPOS_FieldAlignment( tMCRPOS_ROTOR_ALIGN_OUTPUT_S * const alig
     }
     else if ( gMCRPOS_RotorAlignState.startupLockCount < gMCRPOS_RotorAlignParam.lockTimeCount)
     {
-      #if(ENABLED == Q_AXIS_ALIGNMENT )
+      #if(ALIGNMENT_METHOD == Q_AXIS )
         alignOutput->idRef =  0.0f;
         alignOutput->iqRef =  gMCRPOS_RotorAlignParam.lockCurrent;
         alignOutput->angle = (3*M_PI_2);

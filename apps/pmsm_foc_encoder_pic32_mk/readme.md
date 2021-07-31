@@ -1,5 +1,5 @@
 ---
-parent: Motor Control Application Examples for PIC32MK family
+parent: Microchip MPLAB® Harmony 3 Motor Control Application Examples for PIC32MK family
 title: PMSM FOC using Quadrature Encoder
 has_children: false
 has_toc: false

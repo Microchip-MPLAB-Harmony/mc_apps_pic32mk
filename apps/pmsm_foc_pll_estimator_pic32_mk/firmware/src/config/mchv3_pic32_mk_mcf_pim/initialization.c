@@ -195,8 +195,6 @@ void SYS_Initialize ( void* data )
 
 
     X2CScope_Init();
-    PMSM_FOC_Initialize();
-
 
     EVIC_Initialize();
 

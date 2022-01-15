@@ -10,21 +10,21 @@
                        projectFiles="true">
           <logicalFolder name="f1" displayName="motor_control" projectFiles="true">
             <logicalFolder name="f1" displayName="pmsm_foc" projectFiles="true">
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_rotorposition.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_control_loop.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_currmeasurement.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_derivedparams.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_errorhandler.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_generic_lib.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_hal.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_lib.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_picontrol.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_pmsm_foc.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_pmsm_foc_common.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_pwm.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_speed.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_userparams.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_voltagemeasurement.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_control_loop.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_currmeasurement.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_derivedparams.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_errorhandler.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_generic_lib.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_hal.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_lib.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_picontrol.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_pmsm_foc.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_pmsm_foc_common.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_pwm.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_rotorposition.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_speed.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_userparams.h</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_voltagemeasurement.h</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="peripheral" projectFiles="true">
@@ -109,17 +109,17 @@
                        projectFiles="true">
           <logicalFolder name="f1" displayName="motor_control" projectFiles="true">
             <logicalFolder name="f1" displayName="pmsm_foc" projectFiles="true">
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_rotorposition.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_control_loop.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_currmeasurement.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_errorhandler.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_generic_lib.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_lib.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_picontrol.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_pmsm_foc.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_pwm.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_speed.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/motor_control/pmsm_foc/mc_voltagemeasurement.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_control_loop.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_currmeasurement.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_errorhandler.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_generic_lib.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_lib.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_picontrol.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_pmsm_foc.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_pwm.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_rotorposition.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_speed.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_voltagemeasurement.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="peripheral" projectFiles="true">
@@ -159,7 +159,7 @@
           <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/exceptions.c</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <itemPath>../src/main_mclv2.c</itemPath>
+      <itemPath>../src/main_pic32mk_mcf_mclv2.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -173,13 +173,13 @@
         <targetDevice>PIC32MK1024MCF100</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>ICD4Tool</platformTool>
+        <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>3.01</languageToolchainVersion>
+        <languageToolchainVersion>4.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32MK-MC_DFP" vendor="Microchip" version="1.8.132"/>
+        <pack name="PIC32MK-MC_DFP" vendor="Microchip" version="1.9.143"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -240,9 +240,6 @@
         <property key="use-indirect-calls" value="false"/>
         <appendMe value="-Wformat=2 -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-format-attribute -Wno-deprecated-declarations -Wredundant-decls -Wnested-externs -Winline -Wlong-long -Wunreachable-code -Wmissing-noreturn"/>
       </C32>
-      <C32-AR>
-        <property key="additional-options-chop-files" value="false"/>
-      </C32-AR>
       <C32-AS>
         <property key="assembler-symbols" value=""/>
         <property key="enable-symbols" value="true"/>
@@ -308,37 +305,6 @@
         <property key="trace-symbols" value=""/>
         <property key="warn-section-align" value="false"/>
       </C32-LD>
-      <C32CPP>
-        <property key="additional-warnings" value="false"/>
-        <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
-        <property key="check-new" value="false"/>
-        <property key="eh-specs" value="true"/>
-        <property key="enable-app-io" value="false"/>
-        <property key="enable-omit-frame-pointer" value="false"/>
-        <property key="enable-symbols" value="true"/>
-        <property key="enable-unroll-loops" value="false"/>
-        <property key="exceptions" value="true"/>
-        <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/mclv2_pic32_mk_mcf_pim;;"/>
-        <property key="generate-16-bit-code" value="false"/>
-        <property key="generate-micro-compressed-code" value="false"/>
-        <property key="isolate-each-function" value="true"/>
-        <property key="make-warnings-into-errors" value="false"/>
-        <property key="optimization-level" value="-O1"/>
-        <property key="place-data-into-section" value="false"/>
-        <property key="post-instruction-scheduling" value="default"/>
-        <property key="pre-instruction-scheduling" value="default"/>
-        <property key="preprocessor-macros" value=""/>
-        <property key="rtti" value="true"/>
-        <property key="strict-ansi" value="false"/>
-        <property key="toplevel-reordering" value=""/>
-        <property key="unaligned-access" value=""/>
-        <property key="use-cci" value="false"/>
-        <property key="use-iar" value="false"/>
-        <property key="use-indirect-calls" value="false"/>
-      </C32CPP>
       <C32Global>
         <property key="common-include-directories" value=""/>
         <property key="gp-relative-option" value=""/>
@@ -443,6 +409,8 @@
         <property key="UART5" value="true"/>
         <property key="UART6" value="true"/>
         <property key="communication.interface.jtag" value="2wire"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.simultaneous.debug" value="false"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
@@ -477,6 +445,7 @@
         <property key="programoptions.preserveprogram.ranges" value="1d000000-1d0fffff"/>
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.program.otpconfig" value="false"/>
         <property key="programoptions.programcalmem" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
@@ -638,6 +607,8 @@
         <property key="UART5" value="true"/>
         <property key="UART6" value="true"/>
         <property key="communication.interface.jtag" value="2wire"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.simultaneous.debug" value="false"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
@@ -674,6 +645,7 @@
         <property key="programoptions.preserveprogram.ranges" value="1d000000-1d0fffff"/>
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.program.otpconfig" value="false"/>
         <property key="programoptions.programcalmem" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>

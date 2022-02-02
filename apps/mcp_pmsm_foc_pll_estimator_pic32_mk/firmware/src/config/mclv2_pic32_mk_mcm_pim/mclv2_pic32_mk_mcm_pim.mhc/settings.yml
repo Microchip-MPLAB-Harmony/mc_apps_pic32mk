@@ -1,0 +1,16 @@
+configName: mclv2_pic32_mk_mcm_pim
+folderName: mclv2_pic32_mk_mcm_pim
+format_version: v1.0
+frameworkPath: ..\..\..
+processor: PIC32MK1024MCM100
+projectName: mcp_pmsm_foc_pll_estimator_pic32_mk
+settings:
+  PackageFilter: bsp;bsp_;csp;Devices;dev_packs;harmony-services;mc_apps_pic32cm_mc;mc_apps_pic32mk;mc_apps_pic32mk
+    - Copy;mc_apps_sam_c2x;mc_apps_sam_d5x_e5x;mc_apps_sam_e7x_s7x_v7x;mc_apps_sam_e7x_s7x_v7x
+    - Copy;mc_apps_sam_rh71;motor_control;quick_docs;x2c
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\PIC32MK-MC_DFP\1.9.143\atdf\PIC32MK1024MCM100.atdf

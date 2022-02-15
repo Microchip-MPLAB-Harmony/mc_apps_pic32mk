@@ -82,9 +82,8 @@ void GPIO_Initialize ( void )
     CFGCONbits.IOLOCK = 0;
 
     /* PPS Input Remapping */
-    QEB2R = 8;
-    U2RXR = 6;
     QEA2R = 5;
+    U2RXR = 6;
 
     /* PPS Output Remapping */
     RPB9R = 2;

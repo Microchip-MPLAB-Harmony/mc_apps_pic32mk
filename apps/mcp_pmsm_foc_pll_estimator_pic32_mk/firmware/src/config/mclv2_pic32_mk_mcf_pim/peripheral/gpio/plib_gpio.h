@@ -108,6 +108,10 @@
 #define LED_01_Get()               ((PORTF >> 5) & 0x1)
 #define LED_01_PIN                  GPIO_PIN_RF5
 
+/*** Macros for IDC pin ***/
+#define IDC_Get()               ((PORTB >> 7) & 0x1)
+#define IDC_PIN                  GPIO_PIN_RB7
+
 /*** Macros for TRANSMIT pin ***/
 #define TRANSMIT_Get()               ((PORTB >> 9) & 0x1)
 #define TRANSMIT_PIN                  GPIO_PIN_RB9

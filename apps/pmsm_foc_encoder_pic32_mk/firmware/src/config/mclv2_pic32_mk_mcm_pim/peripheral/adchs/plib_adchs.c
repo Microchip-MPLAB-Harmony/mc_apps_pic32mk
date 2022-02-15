@@ -54,16 +54,14 @@
 ADCHS_CALLBACK_OBJECT ADCHS_CallbackObj[53];
 
 
+
 void ADCHS_Initialize()
 {
     ADCCON1bits.ON = 0;
-    ADC0CFG = DEVADC0;
-    ADC0TIME = 0x3010001;
-
-    ADC4CFG = DEVADC4;
-    ADC4TIME = 0x3010001;
-
-
+ADC0CFG = DEVADC0;
+ADC0TIME = 0x3010001;
+ADC4CFG = DEVADC4;
+ADC4TIME = 0x3010001;
     ADC7CFG = DEVADC7;
 
     ADCCON1 = 0x600000;
@@ -77,8 +75,8 @@ void ADCHS_Initialize()
     ADCTRG3 = 0xa0000; 
     ADCTRG4 = 0xa000000; 
     ADCTRG5 = 0x0; 
-    
-    
+    ADCTRG6 = 0x0; 
+    ADCTRG7 = 0x0; 
 
     ADCTRGSNS = 0x0;
 
@@ -91,13 +89,18 @@ void ADCHS_Initialize()
     ADCCSS1 = 0x0;
     ADCCSS2 = 0x0; 
 
-    /* Result interrupt enable */
-    ADCGIRQEN1 = 0x1;
-    ADCGIRQEN2 = 0x0;
 
-    /* Interrupt Enable */
-    IEC3SET = 0x400;
-    IEC4SET = 0x0;
+
+
+/* Result interrupt enable */
+ADCGIRQEN1 = 0x1;
+ADCGIRQEN2 = 0x0;
+/* Interrupt Enable */
+IEC3SET = 0x400;
+IEC4SET = 0x0;
+
+
+
     /* Turn ON ADC */
     ADCCON1bits.ON = 1;
     while(!ADCCON2bits.BGVRRDY); // Wait until the reference voltage is ready
@@ -117,6 +120,8 @@ void ADCHS_Initialize()
     ADCANCONbits.ANEN7 = 1;      // Enable the clock to analog bias
     while(!ADCANCONbits.WKRDY7); // Wait until ADC is ready
     ADCCON3bits.DIGEN7 = 1;      // Enable ADC
+
+
 }
 
 
@@ -230,6 +235,9 @@ void ADCHS_CallbackRegister(ADCHS_CHANNEL_NUM channel, ADCHS_CALLBACK callback, 
     ADCHS_CallbackObj[channel].callback_fn = callback;
     ADCHS_CallbackObj[channel].context = context;
 }
+
+
+
 
 bool ADCHS_EOSStatusGet(void)
 {

@@ -14,7 +14,6 @@
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_currmeasurement.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_derivedparams.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_errorhandler.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_generic_lib.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_generic_lib.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_hal.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_lib.h</itemPath>
@@ -91,6 +90,7 @@
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_control_loop.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_currmeasurement.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_errorhandler.c</itemPath>
+              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_generic_lib.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_lib.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_picontrol.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_pmsm_foc.c</itemPath>
@@ -220,7 +220,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src/config/mclv2_pic32_mk_mcm_pim/X2CCode;../src;../src/config/mclv2_pic32_mk_mcm_pim;;"/>
+                  value="../src;../src/config/mclv2_pic32_mk_mcm_pim;../src/config/mclv2_pic32_mk_mcm_pim/X2CCode"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -298,7 +298,7 @@
         <property key="no-startup-files" value="false"/>
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
-        <property key="preprocessor-macros" value=";"/>
+        <property key="preprocessor-macros" value=""/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
@@ -311,6 +311,7 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>
@@ -319,7 +320,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/mclv2_pic32_mk_mcm_pim"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="false"/>

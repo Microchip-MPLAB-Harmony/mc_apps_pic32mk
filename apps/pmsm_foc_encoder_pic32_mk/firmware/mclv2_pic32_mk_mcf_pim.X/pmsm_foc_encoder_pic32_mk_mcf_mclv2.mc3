@@ -1,4 +1,4 @@
-<config configName="mclv2_pic32_mk_mcf_pim" projectName="pmsm_foc_encoder_pic32_mk_mcf_mclv2" configVersion="1.1" device="PIC32MK1024MCF100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.0">
+<config configName="mclv2_pic32_mk_mcf_pim" projectName="pmsm_foc_encoder_pic32_mk_mcf_mclv2" configVersion="1.1" device="PIC32MK1024MCF100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -31,7 +31,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.9"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -2295,13 +2295,13 @@
     &lt;GraphSettings canvasHeight=&quot;409&quot; canvasWidth=&quot;368&quot; dnOrder=&quot;0&quot;/&gt;
     &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;X2CScope&quot; x=&quot;227&quot; y=&quot;259&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;adchs&quot; x=&quot;65&quot; y=&quot;128&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;core&quot; x=&quot;64&quot; y=&quot;53&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;dfp&quot; x=&quot;184&quot; y=&quot;54&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;mcpwm&quot; x=&quot;201&quot; y=&quot;128&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;qei2&quot; x=&quot;332&quot; y=&quot;128&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;uart2&quot; x=&quot;63&quot; y=&quot;258&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;X2CScope&quot; x=&quot;138&quot; y=&quot;267&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;adchs&quot; x=&quot;0&quot; y=&quot;146&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;core&quot; x=&quot;0&quot; y=&quot;74&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;dfp&quot; x=&quot;78&quot; y=&quot;72&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;mcpwm&quot; x=&quot;132&quot; y=&quot;146&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;qei2&quot; x=&quot;263&quot; y=&quot;146&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;uart2&quot; x=&quot;0&quot; y=&quot;267&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
   &lt;/UserData&gt;
@@ -3627,6 +3627,17 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;CTMU_CLOCK_FREQUENCY&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="CoreMainFile"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;CoreMainFile&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -7710,10 +7721,6 @@
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\interrupts.c</file>
          <hash>18bec0b04dc162d489eebc3bb2bc3badb9ac01c91cfa0f2e69e327f9c1e25d1f</hash>
-      </entry>
-      <entry>
-         <file>..\src\main_pic32mk_mcf_mclv2.c</file>
-         <hash>d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\exceptions.c</file>

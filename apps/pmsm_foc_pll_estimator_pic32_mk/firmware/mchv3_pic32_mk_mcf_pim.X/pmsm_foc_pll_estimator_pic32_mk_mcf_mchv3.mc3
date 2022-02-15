@@ -2651,7 +2651,7 @@
         &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;core&quot; x=&quot;220&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;dfp&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;mcpwm&quot; x=&quot;156&quot; y=&quot;120&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;uart2&quot; x=&quot;38&quot; y=&quot;252&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;uart2&quot; x=&quot;12&quot; y=&quot;255&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
     &lt;GraphSettings canvasHeight=&quot;389&quot; canvasWidth=&quot;330&quot; dnOrder=&quot;1&quot;/&gt;

@@ -28,7 +28,7 @@ nav_order: 99
 ### Required MPLAB Harmony v3 Modules
 * csp v3.11.0
 * x2c v1.2.0
-* bsp v3.11.0
+* bsp v3.11.1
 * motor_control v3.8.0
 * dev_packs v3.11.0
 * mcc v1.0.9

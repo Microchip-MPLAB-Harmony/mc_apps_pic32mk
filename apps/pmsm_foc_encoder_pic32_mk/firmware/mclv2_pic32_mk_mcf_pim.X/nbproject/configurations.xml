@@ -463,7 +463,7 @@
         <property key="memories.programmemory.ranges" value="1d000000-1d0fffff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="D:/Release/mc_apps_pic32mk/apps/pmsm_foc_encoder_pic32_mk/firmware/mclv2_pic32_mk_mcf_pim.X/debug/mclv2_pic32_mk_mcf_pim/mclv2_pic32_mk_mcf_pim_ptg"/>
+                  value="C:/harmony/harmony3/mc_apps_pic32mk/apps/pmsm_foc_encoder_pic32_mk/firmware/mclv2_pic32_mk_mcf_pim.X/debug/mclv2_pic32_mk_mcf_pim/mclv2_pic32_mk_mcf_pim_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>

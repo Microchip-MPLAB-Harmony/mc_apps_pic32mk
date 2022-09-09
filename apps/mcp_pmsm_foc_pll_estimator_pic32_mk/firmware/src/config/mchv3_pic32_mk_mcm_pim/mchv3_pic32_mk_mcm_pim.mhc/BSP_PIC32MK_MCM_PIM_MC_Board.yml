@@ -1,0 +1,190 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, bsp: 'true'}
+children:
+- type: Symbols
+  children:
+  - type: Combo
+    attributes: {id: BSP_BOARD_SEL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: dsPICDEM MCHV-3}
+  - type: Float
+    attributes: {id: BSP_IA_GAIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '10.06'}
+  - type: Float
+    attributes: {id: BSP_IA_OFFSET}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '1.65'}
+  - type: Integer
+    attributes: {id: BSP_IA_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '14'}
+  - type: Float
+    attributes: {id: BSP_IA_SHUNT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '0.01'}
+  - type: Float
+    attributes: {id: BSP_IB_GAIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '10.06'}
+  - type: Float
+    attributes: {id: BSP_IB_OFFSET}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '1.65'}
+  - type: Integer
+    attributes: {id: BSP_IB_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '12'}
+  - type: Float
+    attributes: {id: BSP_IB_SHUNT}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '0.01'}
+  - type: Float
+    attributes: {id: BSP_VDC_BOTTOM}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '2.2'}
+  - type: Integer
+    attributes: {id: BSP_VDC_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '20'}
+  - type: Float
+    attributes: {id: BSP_VDC_TOP}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '300.0'}
+  - type: Integer
+    attributes: {id: BSP_VPOT_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '44'}
+  - type: Integer
+    attributes: {id: MCBSP_ENCODER_QEA_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '84'}
+  - type: Integer
+    attributes: {id: MCBSP_ENCODER_QEB_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '43'}
+  - type: Integer
+    attributes: {id: MCBSP_PWMAH_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '4'}
+  - type: Integer
+    attributes: {id: MCBSP_PWMAL_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '5'}
+  - type: Integer
+    attributes: {id: MCBSP_PWMBH_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '98'}
+  - type: Integer
+    attributes: {id: MCBSP_PWMBL_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '99'}
+  - type: Integer
+    attributes: {id: MCBSP_PWMCH_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '93'}
+  - type: Integer
+    attributes: {id: MCBSP_PWMCL_PIN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '94'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_BUTTON0_NUMBER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '89'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_BUTTON1_NUMBER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '78'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_LED0_NUMBER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '61'}
+  - type: Integer
+    attributes: {id: MCPMSMFOC_LED1_NUMBER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '1'}
+  - type: Float
+    attributes: {id: MCPMSMFOC_VOLTAGE_MAGNITUDE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: BSP_PIC32MK_MCM_PIM_MC_Board, value: '325.0'}
+- type: ElementPosition
+  attributes: {x: '84', y: '365', id: BSP_PIC32MK_MCM_PIM_MC_Board}

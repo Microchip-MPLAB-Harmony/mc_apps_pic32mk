@@ -71,7 +71,7 @@ ADC3TIME = 0x3010001;
     ADCTRGMODE = 0x840000;
 
     ADCTRG1 = 0xa000a0a; 
-    ADCTRG2 = 0xa000a; 
+    ADCTRG2 = 0xa0000; 
     ADCTRG3 = 0xa0000; 
     ADCTRG4 = 0xa000000; 
     ADCTRG5 = 0x0; 

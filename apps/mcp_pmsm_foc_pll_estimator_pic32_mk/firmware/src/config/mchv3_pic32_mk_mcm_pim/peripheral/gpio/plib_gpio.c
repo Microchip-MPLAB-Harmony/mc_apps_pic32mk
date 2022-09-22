@@ -64,6 +64,7 @@ void GPIO_Initialize ( void )
     /* PORTC Initialization */
     /* PORTD Initialization */
     /* PORTE Initialization */
+    ANSELECLR = 0x4000U; /* Digital Mode Enable */
     /* PORTF Initialization */
     LATF = 0x0U; /* Initial Latch Value */
     TRISFCLR = 0x20U; /* Direction Control */
@@ -81,7 +82,9 @@ void GPIO_Initialize ( void )
     CFGCONbits.IOLOCK = 0U;
 
     /* PPS Input Remapping */
+    QEB2R = 8;
     U2RXR = 6;
+    QEA2R = 5;
 
     /* PPS Output Remapping */
     RPB9R = 2;

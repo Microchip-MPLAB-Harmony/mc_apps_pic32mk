@@ -23,7 +23,6 @@
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_rotor_position.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_pwm.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_current_calculation.h</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_position_control.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_flux_control.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_speed_control.h</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_start_up.h</itemPath>
@@ -107,7 +106,6 @@
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_interface_handling.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_flux_control.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_pwm.c</itemPath>
-              <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_position_control.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_motor_control.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_error_handler.c</itemPath>
               <itemPath>../src/config/mclv2_pic32_mk_mcm_pim/motor_control/pmsm_foc/mc_current_control.c</itemPath>

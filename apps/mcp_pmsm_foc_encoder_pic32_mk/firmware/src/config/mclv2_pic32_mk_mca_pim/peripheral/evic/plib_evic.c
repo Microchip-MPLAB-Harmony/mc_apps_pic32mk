@@ -55,8 +55,8 @@ void EVIC_Initialize( void )
     INTCONSET = _INTCON_MVEC_MASK;
 
     /* Set up priority and subpriority of enabled interrupts */
-    IPC26SET = 0x40000U | 0x0U;  /* ADC_DATA0:  Priority 1 / Subpriority 0 */
-    IPC43SET = 0x400U | 0x0U;  /* PWM1:  Priority 1 / Subpriority 0 */
+    IPC26SET = 0x40000 | 0x0;  /* ADC_DATA0:  Priority 1 / Subpriority 0 */
+    IPC43SET = 0x400 | 0x0;  /* PWM1:  Priority 1 / Subpriority 0 */
 
 
 
@@ -71,53 +71,53 @@ void EVIC_Initialize( void )
 
 void EVIC_SourceEnable( INT_SOURCE source )
 {
-    volatile uint32_t *IECx = (volatile uint32_t *) (&IEC0 + ((0x10U * (source / 32U)) / 4U));
-    volatile uint32_t *IECxSET = (volatile uint32_t *)(IECx + 2U);
+    volatile uint32_t *IECx = (volatile uint32_t *) (&IEC0 + ((0x10 * (source / 32)) / 4));
+    volatile uint32_t *IECxSET = (volatile uint32_t *)(IECx + 2);
 
-    *IECxSET = 1UL << (source & 0x1fU);
+    *IECxSET = 1 << (source & 0x1f);
 }
 
 void EVIC_SourceDisable( INT_SOURCE source )
 {
-    volatile uint32_t *IECx = (volatile uint32_t *) (&IEC0 + ((0x10U * (source / 32U)) / 4U));
-    volatile uint32_t *IECxCLR = (volatile uint32_t *)(IECx + 1U);
+    volatile uint32_t *IECx = (volatile uint32_t *) (&IEC0 + ((0x10 * (source / 32)) / 4));
+    volatile uint32_t *IECxCLR = (volatile uint32_t *)(IECx + 1);
 
-    *IECxCLR = 1UL << (source & 0x1fU);
+    *IECxCLR = 1 << (source & 0x1f);
 }
 
 bool EVIC_SourceIsEnabled( INT_SOURCE source )
 {
-    volatile uint32_t *IECx = (volatile uint32_t *) (&IEC0 + ((0x10U * (source / 32U)) / 4U));
+    volatile uint32_t *IECx = (volatile uint32_t *) (&IEC0 + ((0x10 * (source / 32)) / 4));
 
-    return (((*IECx >> (source & 0x1fU)) & 0x01U) != 0U);
+    return (bool)((*IECx >> (source & 0x1f)) & 0x01);
 }
 
 bool EVIC_SourceStatusGet( INT_SOURCE source )
 {
-    volatile uint32_t *IFSx = (volatile uint32_t *)(&IFS0 + ((0x10U * (source / 32U)) / 4U));
+    volatile uint32_t *IFSx = (volatile uint32_t *)(&IFS0 + ((0x10 * (source / 32)) / 4));
 
-    return (((*IFSx >> (source & 0x1fU)) & 0x1U) != 0U);
+    return (bool)((*IFSx >> (source & 0x1f)) & 0x1);
 }
 
 void EVIC_SourceStatusSet( INT_SOURCE source )
 {
-    volatile uint32_t *IFSx = (volatile uint32_t *) (&IFS0 + ((0x10U * (source / 32U)) / 4U));
-    volatile uint32_t *IFSxSET = (volatile uint32_t *)(IFSx + 2U);
+    volatile uint32_t *IFSx = (volatile uint32_t *) (&IFS0 + ((0x10 * (source / 32)) / 4));
+    volatile uint32_t *IFSxSET = (volatile uint32_t *)(IFSx + 2);
 
-    *IFSxSET = 1UL << (source & 0x1fU);
+    *IFSxSET = 1 << (source & 0x1f);
 }
 
 void EVIC_SourceStatusClear( INT_SOURCE source )
 {
-    volatile uint32_t *IFSx = (volatile uint32_t *) (&IFS0 + ((0x10U * (source / 32U)) / 4U));
-    volatile uint32_t *IFSxCLR = (volatile uint32_t *)(IFSx + 1U);
+    volatile uint32_t *IFSx = (volatile uint32_t *) (&IFS0 + ((0x10 * (source / 32)) / 4));
+    volatile uint32_t *IFSxCLR = (volatile uint32_t *)(IFSx + 1);
 
-    *IFSxCLR = 1UL << (source & 0x1fU);
+    *IFSxCLR = 1 << (source & 0x1f);
 }
 
 void EVIC_INT_Enable( void )
 {
-   (void) __builtin_enable_interrupts();
+    __builtin_enable_interrupts();
 }
 
 bool EVIC_INT_Disable( void )
@@ -128,7 +128,7 @@ bool EVIC_INT_Disable( void )
     processorStatus = ( uint32_t )__builtin_disable_interrupts();
 
     /* return the interrupt status */
-    return ((processorStatus & 0x01U) != 0U);
+    return (bool)(processorStatus & 0x01);
 }
 
 void EVIC_INT_Restore( bool state )
@@ -136,7 +136,7 @@ void EVIC_INT_Restore( bool state )
     if (state)
     {
         /* restore the state of CP0 Status register before the disable occurred */
-       (void) __builtin_enable_interrupts();
+        __builtin_enable_interrupts();
     }
 }
 

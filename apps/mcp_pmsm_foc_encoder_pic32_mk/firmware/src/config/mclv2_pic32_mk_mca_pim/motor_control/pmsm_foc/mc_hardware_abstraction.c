@@ -197,7 +197,7 @@ uint16_t mcHalI_PhaseBCurrentSignalGet( uint8_t Id )
  */
 uint16_t mcHalI_PotentiometerSignalGet( void )
 {
-     return ADCHS_ChannelResultGet(ADCHS_CH14);
+     return ADCHS_ChannelResultGet(ADCHS_CH15);
 
 }
 

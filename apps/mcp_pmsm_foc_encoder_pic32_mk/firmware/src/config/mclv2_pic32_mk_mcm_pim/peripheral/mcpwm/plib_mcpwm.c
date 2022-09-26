@@ -89,6 +89,8 @@ void MCPWM_Initialize (void)
     /*  POLL    = 0*/
     /*  FLTDAT  = 0b00 */
     /*  FLTMOD  = 1 */
+    /*  PENH  = 1 */
+    /*  PENL  = 1 */
     /*  FLTPOL  = 1  */
     /*  FLTSRC  = 15  */
     /*  CLDAT  = 0b00 */
@@ -102,8 +104,8 @@ void MCPWM_Initialize (void)
     PHASE1 = 0;
 
     /* Dead Time */
-    DTR1 = 120;
-    ALTDTR1 = 120;
+    DTR1 = 76;
+    ALTDTR1 = 76;
 
     /* Trigger Generator */
     TRGCON1 = 0x400;
@@ -147,6 +149,8 @@ void MCPWM_Initialize (void)
     /*  POLL    = 0*/
     /*  FLTDAT  = 0b00 */
     /*  FLTMOD  = 1 */
+    /*  PENH  = 1 */
+    /*  PENL  = 1 */
     /*  FLTPOL  = 1  */
     /*  FLTSRC  = 15  */
     /*  CLDAT  = 0b00 */
@@ -160,8 +164,8 @@ void MCPWM_Initialize (void)
     PHASE2 = 0;
 
     /* Dead Time */
-    DTR2 = 120;
-    ALTDTR2 = 120;
+    DTR2 = 76;
+    ALTDTR2 = 76;
 
     /* Trigger Generator */
     TRGCON2 = 0x400;
@@ -202,6 +206,8 @@ void MCPWM_Initialize (void)
     /*  POLL    = 0*/
     /*  FLTDAT  = 0b00 */
     /*  FLTMOD  = 1 */
+    /*  PENH  = 1 */
+    /*  PENL  = 1 */
     /*  FLTPOL  = 1  */
     /*  FLTSRC  = 15  */
     /*  CLDAT  = 0b00 */
@@ -215,8 +221,8 @@ void MCPWM_Initialize (void)
     PHASE3 = 0;
 
     /* Dead Time */
-    DTR3 = 120;
-    ALTDTR3 = 120;
+    DTR3 = 76;
+    ALTDTR3 = 76;
 
     /* Trigger Generator */
     TRGCON3 = 0x400;

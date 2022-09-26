@@ -1,4 +1,4 @@
-<config configName="mclv2_pic32_mk_mcm_pim" projectName="mcp_pmsm_foc_encoder_pic32_mk" configVersion="1.1" device="PIC32MK1024MCM100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.2">
+<config configName="mclv2_pic32_mk_mcm_pim" projectName="mcp_pmsm_foc_encoder_pic32_mk" configVersion="1.1" device="PIC32MK1024MCM100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.11">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -39,7 +39,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.0"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.5"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -61,16 +61,6 @@
           &lt;/String&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
-      &lt;DirectCapability dnOrder=&quot;1&quot; id=&quot;x2cScope_Scope&quot;&gt;
-        &lt;Attributes dnOrder=&quot;0&quot;&gt;
-          &lt;String dnOrder=&quot;0&quot; id=&quot;targetComponentID&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;pmsm_foc&lt;/Value&gt;
-          &lt;/String&gt;
-          &lt;String dnOrder=&quot;1&quot; id=&quot;targetAttachmentID&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;pmsmfoc_X2CSCOPE&lt;/Value&gt;
-          &lt;/String&gt;
-        &lt;/Attributes&gt;
-      &lt;/DirectCapability&gt;
     &lt;/Attachments&gt;
   &lt;/X2CScope&gt;
 &lt;/X2CScope&gt;
@@ -2572,13 +2562,12 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;569&quot; canvasWidth=&quot;470&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BSP_PIC32MK_MCM_PIM_MC_Board&quot; x=&quot;88&quot; y=&quot;497&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;X2CScope&quot; x=&quot;145&quot; y=&quot;396&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;adchs&quot; x=&quot;147&quot; y=&quot;180&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;core&quot; x=&quot;190&quot; y=&quot;88&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;core&quot; x=&quot;190&quot; y=&quot;83&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;dfp&quot; x=&quot;0&quot; y=&quot;84&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;mcpwm&quot; x=&quot;148&quot; y=&quot;253&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;pmsm_foc&quot; x=&quot;298&quot; y=&quot;220&quot;/&gt;
@@ -2586,6 +2575,7 @@
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;uart2&quot; x=&quot;0&quot; y=&quot;257&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;569&quot; canvasWidth=&quot;470&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -5745,16 +5735,6 @@
           &lt;/String&gt;
         &lt;/Attributes&gt;
       &lt;/DirectDependency&gt;
-      &lt;DirectDependency dnOrder=&quot;3&quot; id=&quot;pmsmfoc_X2CSCOPE&quot;&gt;
-        &lt;Attributes dnOrder=&quot;0&quot;&gt;
-          &lt;String dnOrder=&quot;0&quot; id=&quot;targetComponentID&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;X2CScope&lt;/Value&gt;
-          &lt;/String&gt;
-          &lt;String dnOrder=&quot;1&quot; id=&quot;targetAttachmentID&quot;&gt;
-            &lt;Value dnOrder=&quot;0&quot;&gt;x2cScope_Scope&lt;/Value&gt;
-          &lt;/String&gt;
-        &lt;/Attributes&gt;
-      &lt;/DirectDependency&gt;
     &lt;/Attachments&gt;
   &lt;/pmsm_foc&gt;
 &lt;/pmsm_foc&gt;
@@ -6681,19 +6661,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="uart2" name="UART_BRGH_MODE_COMMENT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;uart2&gt;
-  &lt;uart2 dnOrder=&quot;0&quot; id=&quot;UART_BRGH_MODE_COMMENT&quot;&gt;
-    &lt;Attributes dnOrder=&quot;0&quot;&gt;
-      &lt;String dnOrder=&quot;0&quot; id=&quot;text&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;***&amp;amp;#160;High&amp;amp;#160;Speed&amp;amp;#160;mode&amp;amp;#160;4x&amp;amp;#160;baud&amp;amp;#160;clock&amp;amp;#160;enabled&amp;amp;#160;(BRGH&amp;amp;#160;=&amp;amp;#160;1)&amp;amp;#160;***&lt;/Value&gt;
-      &lt;/String&gt;
-    &lt;/Attributes&gt;
-  &lt;/uart2&gt;
-&lt;/uart2&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="uart2" name="UART_CLOCK_FREQ"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;uart2&gt;
   &lt;uart2 dnOrder=&quot;0&quot; id=&quot;UART_CLOCK_FREQ&quot;&gt;
@@ -6765,58 +6732,22 @@
 </value>
       </entry>
    </tokenMap>
-   <generatedFileHashHistoryMap class="java.util.TreeMap">
+   <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\inc\X2CScope.h</file>
-         <hash>c4c1e8964b703295e7b65ce331295da2a5b143aa63b8960f48c1e62c59fa9d07</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\inc\X2CScopeCommunication.h</file>
-         <hash>363b149004ecc8edb607ce172f49e7c3dc7c40fc4cec7369dd596c26519604ef</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\lib\libPIC32MK_X2CScope.a</file>
-         <hash>99462469ca3b4ccba8ac0720cd48a3953172737e2d9632ea27dbc31bfdcc63fa</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\src\X2CScope.c</file>
-         <hash>8dcc8745b5a12a4c35c2893d601be3df1cfb4d522d7cb0d37627a2c3b629e7e0</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\src\X2CScopeCommunication.c</file>
-         <hash>03e28c7ab5b0422d704e1cf799af2e5ee35d0625eeb640b80cda8b43b01fc139</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\bsp\bsp.c</file>
-         <hash>c67b6294cff9844db10dc4cc9424374c1b21be88bcaef1fd4318c02e08946c17</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs.h</file>
+         <hash>f2b12690d16b961f17bb97b98a811a6f87b6c6aeac58cc4c1f01eefebf119c44</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\bsp\bsp.h</file>
          <hash>2ddc7192355bb2520069298ac05105b08860b740826c829efeba02065a346dc7</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\definitions.h</file>
-         <hash>87ffee38466a2f3e38bf6cad8b0b31fa4d53ba677c648b9b72cce853f5f6ec16</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_flying_start.c</file>
+         <hash>9056b1d3d166ff2091ba681f88976ebf5b0d307f8d29b532353213b88796f488</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\device.h</file>
-         <hash>10ec93c43a7b158a129ae05bd8f4a59ff5bcf3d0f3f062fdd64c374bc2d42099</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\exceptions.c</file>
-         <hash>bacd9060af8add5471ec3170808fe766dbd651e25104b5ecc8a7ebc02935e727</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\initialization.c</file>
-         <hash>368089a56450895e17b56216cf73d17f2c4c9248d10fa4f5d8b57328f87299fa</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\interrupts.c</file>
-         <hash>23a43ef1bf29714489d00b61b6e8bfe7166bdc6b6e59031a22ba841bb323a18b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\interrupts.h</file>
-         <hash>91abdb8d191ae865fc6082f30783c3d6cca8aa8d5aca823a7fb2cc65e3a57d24</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_pwm.h</file>
+         <hash>3240c6e77e1748d85b54c1cdf48f25132d51266969ea48059c59f84a48ed3b03</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_current_calculation.c</file>
@@ -6827,44 +6758,144 @@
          <hash>a6fca6c3e458a3832672b008225c68cf25b1d04daf9065d0ccf1d4ae50754162</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_current_control.c</file>
-         <hash>d483e32af2e90cfa0834cd910df832cef947efdd076bbd044fa85e772936fd1d</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_flying_start.h</file>
+         <hash>2ded0edbde6ed556f7bc24fd95ced7410b9a42dbe319380a5b2eaeef6e97f143</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_ramp_profiler.c</file>
+         <hash>7c0b364454ca29820d6b886136d91ee3ed443ca19543d268c993f1a639cb87ed</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\clk\plib_clk.c</file>
+         <hash>f9c449d74f5884a16f5640ecbaa990e7256196fbcc00609581e30a01e1d27d8c</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart2.c</file>
+         <hash>d54bee763468ca904c247cf47f8632d7c3b271569c4c1ba8364a5a532db656df</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_pwm.c</file>
+         <hash>5717ba0391cb91dcf83b03863c8eca6f2290c4640e691d829ec57fb6ce4b6ea4</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_rotor_position.h</file>
+         <hash>28399de2169f3efe5a2dd47e312144ff8e9fc142ddeb9f9b7fd34c5480975dea</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_start_up.c</file>
+         <hash>664d21082e6572c4d3a5cbdf96cce88b0aee575a3a5153d9585322337edcd191</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\qei\plib_qei2.c</file>
+         <hash>2e78c0b74a914699851c619058bc56d08683a43968e82c73c8831957d23cb972</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart2.h</file>
+         <hash>befdf8af1d298b9f644c10db88121e51e246afb6b6aa8c2540bff280169b71bb</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\bsp\bsp.c</file>
+         <hash>c67b6294cff9844db10dc4cc9424374c1b21be88bcaef1fd4318c02e08946c17</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\src\X2CScope.c</file>
+         <hash>8dcc8745b5a12a4c35c2893d601be3df1cfb4d522d7cb0d37627a2c3b629e7e0</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_rotor_position.c</file>
+         <hash>dff9268814c7109825d0251bca079554da2b33f7783e45588e78171c8dca41cc</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_current_control.h</file>
          <hash>a9d78065c0caa886a3b60860e63526f23eda42b6ef892765b6a3bace86ee7875</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_error_handler.c</file>
-         <hash>be4f6891cab5c6b57a9fe83a65efc63e4cae6af6ba7417c0b0de1f2d7e920e23</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_flux_control.h</file>
+         <hash>80f3eaed28d9522baec8c6e9f69fe8fac47f35d4eba66065bbb16c7fa2b4ec80</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\exceptions.c</file>
+         <hash>bacd9060af8add5471ec3170808fe766dbd651e25104b5ecc8a7ebc02935e727</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\qei\plib_qei2.h</file>
+         <hash>81d0185b43ae7a90801b8c4e345e7b2a980da2c6438257da8c811b41011c171d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\inc\X2CScope.h</file>
+         <hash>c4c1e8964b703295e7b65ce331295da2a5b143aa63b8960f48c1e62c59fa9d07</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\definitions.h</file>
+         <hash>87ffee38466a2f3e38bf6cad8b0b31fa4d53ba677c648b9b72cce853f5f6ec16</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\interrupts.h</file>
+         <hash>91abdb8d191ae865fc6082f30783c3d6cca8aa8d5aca823a7fb2cc65e3a57d24</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\gpio\plib_gpio.h</file>
+         <hash>754b6f1668721fe27cdf745000d54cfd65400e3873520bdf04b8d6583192c6a4</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\clk\plib_clk.h</file>
+         <hash>aeb73e24e5a518024b1c3f7dce953a5cbacead08f55e80ae465fc8d2e522e477</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_start_up.h</file>
+         <hash>eaf7e6fcec6016e6432f5c1cd6e88e385347ce192209d9f3d6bdd6269bb6caf9</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\gpio\plib_gpio.c</file>
+         <hash>12cc4fc7ba8212ec79c7b09b5d2d0ead5f43b2646b58de6b56751582ad107b02</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\stdio\xc32_monitor.c</file>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_error_handler.h</file>
          <hash>8d0421aec72925bd2b77b80ef24b798b483874aa3cd99865c75ee6cf30f6984c</hash>
       </entry>
       <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_pmsm_foc.h</file>
+         <hash>45a85252e96d6050042b8faabc7b14998ef1e9e1c5b08fe66a848e28977c6dee</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_voltage_measurement.c</file>
+         <hash>0b18e49ab643d1d587d6ce12cf013626efd6e9dfbf92ce1c1a8d7cb10c3f1807</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\interrupts.c</file>
+         <hash>23a43ef1bf29714489d00b61b6e8bfe7166bdc6b6e59031a22ba841bb323a18b</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_ramp_profiler.h</file>
+         <hash>c7afbb4a9658f1dfc4f7b0c4667c31e956914e54e0a3832b2912fb700174004b</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_voltage_measurement.h</file>
+         <hash>2bb5809fae1e6fe700bdec8dbdf78da4973d3860cc0b789956fff2ae5960afc6</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_error_handler.c</file>
+         <hash>be4f6891cab5c6b57a9fe83a65efc63e4cae6af6ba7417c0b0de1f2d7e920e23</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_userparams.h</file>
+         <hash>9711957e9a780cc074b2bfb8d369e5f8185bdf5d30ed6a45ca5de775a875ad4d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_pmsm_foc.c</file>
+         <hash>336bec0ec2b538a124d30eeb5c236d0fde1693dc9d10283f31254b399deef6fd</hash>
+      </entry>
+      <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_flux_control.c</file>
          <hash>7a06809ae0cb3a233d5dcb05f4df0a719860faa0e30f57c53a0ea43ab9f58d26</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_flux_control.h</file>
-         <hash>e65177eff05193eb8c3482b675deb1162b7f6b2bf9a48a87faba046f73f22049</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_flying_start.c</file>
-         <hash>9056b1d3d166ff2091ba681f88976ebf5b0d307f8d29b532353213b88796f488</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_flying_start.h</file>
-         <hash>2ded0edbde6ed556f7bc24fd95ced7410b9a42dbe319380a5b2eaeef6e97f143</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_function_coordinator.c</file>
-         <hash>ab658655d778723845906d62facae931257dfccfa6f6754bafb434f92c523a62</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_function_coordinator.h</file>
-         <hash>56dc667ae11ee4f968566b9c127b2ce87bb658d7ca6bcde3eeb73291ddda868b</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_motor_control.c</file>
+         <hash>7d15438d9453b07176c637ba3ed8089578bdaf8d1d7e5f8e51692c97a67ed0b4</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_generic_library.c</file>
@@ -6875,184 +6906,112 @@
          <hash>b4c2f25d8d0869178c19e7441c7a56eee3f1530e8e21998dffe77e767d8d6d54</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_hardware_abstraction.c</file>
-         <hash>1699c27eb2726928ec83802c2c9af532024341a3a543a5260b6c23a239cec033</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_hardware_abstraction.h</file>
-         <hash>5e96658e7eae1144628128a2cc70ab17ebd52679e1e933f1347cf25df416569b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_interface_handling.c</file>
-         <hash>6fea4435aa7b2b92d272df8f10bc8f3d61430aacc9c84f58d9c7df32f8ef6895</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_interface_handling.h</file>
-         <hash>f5cd103666107fa6b1ec7b8fc7eca6382423674a040628de8cef75bf30ab7c89</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_motor_control.c</file>
-         <hash>f9b84ea3ace47fe4a24558a20ca3c949e8de2d0e726b93b0d28461d30c808335</hash>
-      </entry>
-      <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_motor_control.h</file>
-         <hash>d3b13573461a1bc0a8f2001e85cf8085c8a1476d6dcfaaf9a102326ed4863222</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_pmsm_foc.c</file>
-         <hash>336bec0ec2b538a124d30eeb5c236d0fde1693dc9d10283f31254b399deef6fd</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_pmsm_foc.h</file>
-         <hash>45a85252e96d6050042b8faabc7b14998ef1e9e1c5b08fe66a848e28977c6dee</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_position_control.c</file>
-         <hash>491c93d70f12b907e4b753bf13560791ac335254b5e47917a18451de1fd56e78</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_position_control.h</file>
-         <hash>4e1efba7651a4cbc347be4c8cb6035c9ae52dec4776af98396893aa3c52acb4d</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_pwm.c</file>
-         <hash>5717ba0391cb91dcf83b03863c8eca6f2290c4640e691d829ec57fb6ce4b6ea4</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_pwm.h</file>
-         <hash>3240c6e77e1748d85b54c1cdf48f25132d51266969ea48059c59f84a48ed3b03</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_ramp_profiler.c</file>
-         <hash>c7e2e118ee662a85f6355479a00d19ea9f0218883ba6a56e3943612d096811ed</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_ramp_profiler.h</file>
-         <hash>c7afbb4a9658f1dfc4f7b0c4667c31e956914e54e0a3832b2912fb700174004b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_rotor_position.c</file>
-         <hash>dff9268814c7109825d0251bca079554da2b33f7783e45588e78171c8dca41cc</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_rotor_position.h</file>
-         <hash>28399de2169f3efe5a2dd47e312144ff8e9fc142ddeb9f9b7fd34c5480975dea</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_speed_control.c</file>
-         <hash>5ef5162ea9caba321e7c756d9a1884d31f3be1c661596b0ace6223821c9de3e2</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_speed_control.h</file>
-         <hash>5f3136ac79f53497fc442c439f1e39d2fab095d4c1f15561291e28b78bc7facf</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_start_up.c</file>
-         <hash>e3fe78f39cea21cb10f75803f784f7f654e9952c44ca9e8e07796441d2a78eba</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_start_up.h</file>
-         <hash>eaf7e6fcec6016e6432f5c1cd6e88e385347ce192209d9f3d6bdd6269bb6caf9</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_userparams.h</file>
-         <hash>ff12deffcdaac37551fc4ae386f97452cc0d643107576f387b9a44c84e975864</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_voltage_measurement.c</file>
-         <hash>0b18e49ab643d1d587d6ce12cf013626efd6e9dfbf92ce1c1a8d7cb10c3f1807</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_voltage_measurement.h</file>
-         <hash>643b3856cde174af4b9affa6ac828a98f868ffc3f485e2515d3a8d858901aa07</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\p32MK1024MCM100.ld</file>
-         <hash>36383c79df5175768ec0196f0637d86a1774d3ae0a9afaed9b6e470ab8bbf83e</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs.c</file>
-         <hash>177e899753a786e40635287f50f20f833516a929a7457ec842eedc774920cce8</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs.h</file>
-         <hash>3b98730a8479d4ca3ae3b235eef158fcfac8fa3913db31c06871931d19548f93</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs_common.h</file>
-         <hash>93be23da5be28d5ed9a42714e3beb99b02268ed119c6d27754db21b5c786d09f</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\clk\plib_clk.c</file>
-         <hash>f9c449d74f5884a16f5640ecbaa990e7256196fbcc00609581e30a01e1d27d8c</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\clk\plib_clk.h</file>
-         <hash>aeb73e24e5a518024b1c3f7dce953a5cbacead08f55e80ae465fc8d2e522e477</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\evic\plib_evic.c</file>
-         <hash>acc1c259e8de9c8b8d84f7e50ed2d74f1275ee1e50e8706ec6fde8f6f3e7e861</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\evic\plib_evic.h</file>
-         <hash>506e5dab150eee637763fcbeb6586aebbfdd46203b10e3ebf695083118f2d871</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\gpio\plib_gpio.c</file>
-         <hash>d3758c91968268ab8da18eee6cd99fc6fc43947e799033d6a638d7481ae986da</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\gpio\plib_gpio.h</file>
-         <hash>76196463e95f2ce84d464369ed39196d8cec9c44f3b5c395c2d7e42050ea475d</hash>
+         <hash>abbe6d24e8d354062cf7eae35c17ff8c57d4fba5f626e01fc3f9de0bb8fb22f5</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm.c</file>
-         <hash>494d7c5ee89dfb7df40006c81e7935c5ee7b9ae5208d372715fd8b99a5cd853f</hash>
+         <hash>1aa0d9119478d470e15d1273b5adff9ac678543bfc51baa0dd4814e821fc1ead</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm.h</file>
-         <hash>b7022644f168a8cc747daa529bcc0b4155882308dbb7604cf2e27e44785e93b2</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_speed_control.c</file>
+         <hash>bcbaa08e469592a25d23510b8ca03e636fe3cee2c1a8b16f6025c027d1b8634a</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm_common.h</file>
-         <hash>b940867eca350bc1a7c4fdde694b2fde0d0eff5036759771f6a9f5d334cd8aaa</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\qei\plib_qei2.c</file>
-         <hash>2e78c0b74a914699851c619058bc56d08683a43968e82c73c8831957d23cb972</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\qei\plib_qei2.h</file>
-         <hash>81d0185b43ae7a90801b8c4e345e7b2a980da2c6438257da8c811b41011c171d</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\qei\plib_qei_common.h</file>
-         <hash>9ea3b4f643d5ca367a1e9a98b6e2fe8f9d16f5b6ab36f65e27ca41b52f2bfcd5</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart2.c</file>
-         <hash>d5a558088bd8b56089f92dfaca5fabca9a0200509f16797b042916f800105ce2</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart2.h</file>
-         <hash>1442d0d50a5950aef090b33f25329642ae6600f16a35d4488a1cdaa452e6f595</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_speed_control.h</file>
+         <hash>48b536130ba5178162223043f843a67d9cdbc9600aefe8fbff951232469a9611</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart_common.h</file>
          <hash>90d1791d0855caa86d5d529a0ba209330f20cd0da2436950a7e71b38ef8da02b</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\lib\libPIC32MK_X2CScope.a</file>
+         <hash>99462469ca3b4ccba8ac0720cd48a3953172737e2d9632ea27dbc31bfdcc63fa</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\p32MK1024MCM100.ld</file>
+         <hash>fd47bd624612f16402f25f713f60a80f1f31f37401494c32b9599f942f732385</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm_common.h</file>
+         <hash>b940867eca350bc1a7c4fdde694b2fde0d0eff5036759771f6a9f5d334cd8aaa</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\inc\X2CScopeCommunication.h</file>
+         <hash>363b149004ecc8edb607ce172f49e7c3dc7c40fc4cec7369dd596c26519604ef</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs_common.h</file>
+         <hash>93be23da5be28d5ed9a42714e3beb99b02268ed119c6d27754db21b5c786d09f</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\qei\plib_qei_common.h</file>
+         <hash>9ea3b4f643d5ca367a1e9a98b6e2fe8f9d16f5b6ab36f65e27ca41b52f2bfcd5</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_current_control.c</file>
+         <hash>77f3333a6e1a2cb7d68c8366abe4d08b5693ffbac72d4fb920323a37b2118b4a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\initialization.c</file>
+         <hash>626f30b571144e13c562225c143aca18319861121875d50507a68b8ddb5f49d6</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\toolchain_specifics.h</file>
          <hash>9dfc75809b6eb23cee342231de51f6b382f8f7eabf8a939539cf44c0da32acbc</hash>
       </entry>
       <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_function_coordinator.h</file>
+         <hash>56dc667ae11ee4f968566b9c127b2ce87bb658d7ca6bcde3eeb73291ddda868b</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\evic\plib_evic.c</file>
+         <hash>28f5a19f767cdcc519823f60f617c6b5706f985897539a371f6d7ae38e5b3437</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\evic\plib_evic.h</file>
+         <hash>506e5dab150eee637763fcbeb6586aebbfdd46203b10e3ebf695083118f2d871</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\src\X2CScopeCommunication.c</file>
+         <hash>03e28c7ab5b0422d704e1cf799af2e5ee35d0625eeb640b80cda8b43b01fc139</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_hardware_abstraction.c</file>
+         <hash>a89b3b473cc0cc1b265398859d6cf485f8a92ec9f7ba63237534797901e31b1d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_interface_handling.c</file>
+         <hash>c96ff50813d9f336e3776a77bd047fcce2ca56a6d77451e2900e03939ca9a6e0</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_function_coordinator.c</file>
+         <hash>c16da2e9a0b07bde4ab921296d08f79c3d57613f8c69e60371a55a25276554a1</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_interface_handling.h</file>
+         <hash>8041aefe192006b42bb096a9bc97b8c52355f78acfc632721947ec2fa5e66024</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm.h</file>
+         <hash>b7022644f168a8cc747daa529bcc0b4155882308dbb7604cf2e27e44785e93b2</hash>
+      </entry>
+      <entry>
          <file>..\src\main.c</file>
-         <hash>107c8f793649f8c320561c38d8e9d0d23d04921051993ce97ba93bfee489e397</hash>
+         <hash>c89d360ba6675b837cf10f83433b31396f3fb50f779047a6e3a61e2dce72190e</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\motor_control\pmsm_foc\mc_hardware_abstraction.h</file>
+         <hash>5e96658e7eae1144628128a2cc70ab17ebd52679e1e933f1347cf25df416569b</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs.c</file>
+         <hash>177e899753a786e40635287f50f20f833516a929a7457ec842eedc774920cce8</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\device.h</file>
+         <hash>10ec93c43a7b158a129ae05bd8f4a59ff5bcf3d0f3f062fdd64c374bc2d42099</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

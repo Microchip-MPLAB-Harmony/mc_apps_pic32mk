@@ -60,4 +60,5 @@ To build the application, refer to the following table and open the project usin
 | ----------------------- | ---------------------------------------------- |--------------------|
 | mclv2_pic32mk_mcf_pim.X | MPLABX project for MCLV2 board with PIC32MK MCF PIM |[MCLV2 with PIC32MK MCF PIM](../docs/mclv2_pic32mk_mcf_pim_sensored.md)|
 | mclv2_pic32mk_mcm_pim.X | MPLABX project for MCLV2 board with PIC32MK MCM PIM |[MCLV2 with PIC32MK MCM PIM](../docs/mclv2_pic32mk_mcm_pim_sensored.md)|
+| mclv2_pic32mk_mca_pim.X | MPLABX project for MCLV2 board with PIC32MK MCA PIM |[MCLV2 with PIC32MK MCA PIM](../docs/mclv2_pic32mk_mca_pim_sensored.md)|
 ||||

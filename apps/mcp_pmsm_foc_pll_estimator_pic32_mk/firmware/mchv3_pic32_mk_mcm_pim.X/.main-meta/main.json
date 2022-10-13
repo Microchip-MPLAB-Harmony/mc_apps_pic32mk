@@ -3,10 +3,10 @@
 	"category": "com.microchip.ide.project",
 	"content": {
 		"metaDataVersion": "1.1.0",
-		"name": "com.microchip.mcu32.mplabx.project.mc_apps_pic32mk_pmsm_foc_pll_estimator_pic32_mk_mclv2_pic32_mk_mcf_pim",
+		"name": "com.microchip.mcu32.mplabx.project.mc_apps_pic32mk_pmsm_foc_pll_estimator_pic32_mk_mchv3_pic32_mk_mcm_pim",
 		"version": "3.1.0",
 		"displayName": "PMSM FOC using PLL Estimator Example for PIC32MK Family",
-		"projectName": "mcp_pmsm_foc_pll_estimator_pic32_mk_mcf",
+		"projectName": "mcp_pmsm_foc_pll_estimator_pic32_mk_mcm",
 		"shortDescription": "This example application shows how to control the Permanent Magnet Synchronous Motor (PMSM) with PLL Estimator based Field Oriented Control (FOC) on a PIC32MK Micro-controller. ",
 		"ide": {
 			"name": "MPLABX",
@@ -32,14 +32,14 @@
 			"content": {
 				"metaDataVersion": "1.0.0",
 				"category": "com.microchip.device",
-				"name": "PIC32MK1024MCF100",
+				"name": "PIC32MK1024MCM100",
 				"versionRange": "*"
 			}
 		},
 		"author": "Microchip",
 		"subcategories": [
 			[
-				"Development Kit", "MCLV2 Development Board"
+				"Development Kit", "MCHV3 Development Board"
 			],
 			[
 				"Harmony", "Motor Control", "PMSM"
@@ -56,7 +56,7 @@
 			"Harmony",
 			"Motor Control",
 			"PMSM",
-			"PIC32MK1024MCF100",
+			"PIC32MK1024MCM100",
 			"PIC32MK Family",
 			"MCPWM",
 			"PWM",

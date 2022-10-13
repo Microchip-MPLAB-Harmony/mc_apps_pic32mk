@@ -10,21 +10,21 @@
 		"shortDescription": "This example application shows how to control the Permanent Magnet Synchronous Motor (PMSM) with PLL Estimator based Field Oriented Control (FOC) on a PIC32MK Micro-controller. ",
 		"ide": {
 			"name": "MPLABX",
-			"semverRange": ">=5.50.0"
+			"semverRange": ">=6.00.0"
 		},
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=3.1.0"
+				"semverRange": ">=4.00.0"
 			}
 		],
 		"dfp": {
 			"name": "PIC32MK-MC_DFP",
-			"semverRange": "^1.8.132"
+			"semverRange": "^1.11.151"
 		},
 		"configurator": {
-			"name": "MHC",
-			"semverRange": ">=3.6.4"
+			"name": "MCC",
+			"semverRange": ">=1.0.9"
 		},
 		"device": {
 			"metaDataVersion": "1.0.0",

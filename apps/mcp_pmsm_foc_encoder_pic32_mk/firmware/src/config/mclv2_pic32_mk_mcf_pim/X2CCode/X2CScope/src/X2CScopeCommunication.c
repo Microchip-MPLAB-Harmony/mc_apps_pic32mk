@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013, Linz Center of Mechatronics GmbH (LCM) http://www.lcm.at/
+ * Copyright (c) 2013, Linz Center of Mechatronics GmbH (LCM) 
  * All rights reserved.
  */
 /*
@@ -28,15 +28,20 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 /*
- * This file is part of X2C. http://www.mechatronic-simulation.org/
+ * This file is part of X2C.
  */
-
-#include "stdbool.h"
-#include "definitions.h"
+ 
+#include "../inc/X2CScopeCommunication.h"
 
 void sendSerial(uint8_t data)
 {
-    UART2_Write(&data,1);
+     bool status;
+     status = UART2_Write(&data,1);
+     
+     if( false == status )
+     {
+         /** ToDO: Log error */
+     }
 }
 
 uint8_t receiveSerial(void)
@@ -56,11 +61,16 @@ uint8_t receiveSerial(void)
 
 uint8_t isReceiveDataAvailable(void)
 {
-    return (UART2_ReceiverIsReady());
-
+    bool status;
+    
+    status = UART2_ReceiverIsReady();
+    return (uint8_t)status;
 }
 
 uint8_t isSendReady(void)
 {
-    return (UART2_TransmitterIsReady());
+    bool status;
+    
+    status = UART2_TransmitterIsReady();
+    return (uint8_t)status;
 }

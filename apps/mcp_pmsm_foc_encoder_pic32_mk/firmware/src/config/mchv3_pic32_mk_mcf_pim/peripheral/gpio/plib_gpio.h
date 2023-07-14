@@ -79,17 +79,17 @@
 #define PWM_AL_Get()               ((PORTB >> 15) & 0x1U)
 #define PWM_AL_PIN                  GPIO_PIN_RB15
 
+/*** Macros for IB pin ***/
+#define IB_Get()               ((PORTG >> 8) & 0x1U)
+#define IB_PIN                  GPIO_PIN_RG8
+
+/*** Macros for IA pin ***/
+#define IA_Get()               ((PORTG >> 9) & 0x1U)
+#define IA_PIN                  GPIO_PIN_RG9
+
 /*** Macros for VDC pin ***/
 #define VDC_Get()               ((PORTA >> 12) & 0x1U)
 #define VDC_PIN                  GPIO_PIN_RA12
-
-/*** Macros for IB pin ***/
-#define IB_Get()               ((PORTB >> 2) & 0x1U)
-#define IB_PIN                  GPIO_PIN_RB2
-
-/*** Macros for IA pin ***/
-#define IA_Get()               ((PORTC >> 2) & 0x1U)
-#define IA_PIN                  GPIO_PIN_RC2
 
 /*** Macros for VPOT pin ***/
 #define VPOT_Get()               ((PORTE >> 15) & 0x1U)
@@ -112,6 +112,10 @@
 #define BUTTON_01_InputEnable()       (TRISDSET = (1U<<8))
 #define BUTTON_01_Get()               ((PORTD >> 8) & 0x1U)
 #define BUTTON_01_PIN                  GPIO_PIN_RD8
+
+/*** Macros for IDC pin ***/
+#define IDC_Get()               ((PORTB >> 7) & 0x1U)
+#define IDC_PIN                  GPIO_PIN_RB7
 
 /*** Macros for TRANSMIT pin ***/
 #define TRANSMIT_Get()               ((PORTB >> 9) & 0x1U)

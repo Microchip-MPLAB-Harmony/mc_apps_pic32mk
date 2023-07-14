@@ -39,6 +39,7 @@
 *******************************************************************************/
 #include "device.h"
 #include "plib_qei2.h"
+#include "interrupts.h"
 
 // *****************************************************************************
 
@@ -91,13 +92,13 @@ void QEI2_Initialize (void)
 void QEI2_Start(void)
 {
     /* Enable QEI channel */
-    QEI2CON |= _QEI2CON_QEIEN_MASK;
+    QEI2CON |= (uint32_t)_QEI2CON_QEIEN_MASK;
 }
 
 void QEI2_Stop(void)
 {
     /* Disable QEI channel */
-    QEI2CON &= ~_QEI2CON_QEIEN_MASK;
+    QEI2CON &= ~(uint32_t)_QEI2CON_QEIEN_MASK;
 }
 
 uint32_t QEI2_PulseIntervalGet(void)

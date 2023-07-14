@@ -3,13 +3,9 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>mcp_pmsm_foc_pll_estimator_pic32mk_mcf</name>
-            <creation-uuid>2d4fea1b-dd65-4840-a36c-8078ed246738</creation-uuid>
+            <name>pmsm_foc_pll_estimator_pic32_mk_mcf</name>
+            <creation-uuid>1e50fd0f-6e36-4374-867c-0b17347115df</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions>c</c-extensions>
-            <cpp-extensions/>
-            <header-extensions>h</header-extensions>
-            <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList/>

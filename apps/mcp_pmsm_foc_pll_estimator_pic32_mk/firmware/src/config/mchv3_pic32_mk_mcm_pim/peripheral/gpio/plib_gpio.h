@@ -95,6 +95,10 @@
 #define QEB_Get()               ((PORTE >> 14) & 0x1U)
 #define QEB_PIN                  GPIO_PIN_RE14
 
+/*** Macros for VPOT pin ***/
+#define VPOT_Get()               ((PORTE >> 15) & 0x1U)
+#define VPOT_PIN                  GPIO_PIN_RE15
+
 /*** Macros for LED_01 pin ***/
 #define LED_01_Set()               (LATFSET = (1U<<5))
 #define LED_01_Clear()             (LATFCLR = (1U<<5))

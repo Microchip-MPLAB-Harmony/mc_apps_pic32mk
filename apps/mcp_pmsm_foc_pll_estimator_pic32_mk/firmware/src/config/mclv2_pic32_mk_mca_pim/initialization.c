@@ -47,6 +47,9 @@
 #include "device.h"
 
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wunknown-pragmas"
+
 
 // ****************************************************************************
 // ****************************************************************************
@@ -113,6 +116,15 @@
 // Section: Driver Initialization Data
 // *****************************************************************************
 // *****************************************************************************
+/* Following MISRA-C rules are deviated in the below code block */
+/* MISRA C-2012 Rule 11.1 */
+/* MISRA C-2012 Rule 11.3 */
+/* MISRA C-2012 Rule 11.8 */
+#pragma coverity compliance block deviate "MISRA C-2012 Rule 7.2"  "H3_MISRAC_2012_R_7_2_DR_1"
+#pragma coverity compliance block deviate "MISRA C-2012 Rule 11.1" "H3_MISRAC_2012_R_11_1_DR_1"
+#pragma coverity compliance block deviate "MISRA C-2012 Rule 11.3" "H3_MISRAC_2012_R_11_3_DR_1"
+#pragma coverity compliance block deviate "MISRA C-2012 Rule 11.8" "H3_MISRAC_2012_R_11_8_DR_1"
+
 
 
 // *****************************************************************************
@@ -142,7 +154,11 @@
 // *****************************************************************************
 // *****************************************************************************
 
-
+#pragma coverity compliance end_block "MISRA C-2012 Rule 7.2"
+#pragma coverity compliance end_block "MISRA C-2012 Rule 11.1"
+#pragma coverity compliance end_block "MISRA C-2012 Rule 11.3"
+#pragma coverity compliance end_block "MISRA C-2012 Rule 11.8"
+/* MISRAC 2012 deviation block end */
 
 /*******************************************************************************
   Function:
@@ -156,17 +172,19 @@
 
 void SYS_Initialize ( void* data )
 {
+
     /* MISRAC 2012 deviation block start */
     /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
+    #pragma coverity compliance block deviate "MISRA C-2012 Rule 2.2" "H3_MISRAC_2012_R_2_2_DR_1"
 
     /* Start out with interrupts disabled before configuring any modules */
-    __builtin_disable_interrupts();
+    (void)__builtin_disable_interrupts();
 
   
     CLK_Initialize();
 
     /* Configure CP0.K0 for optimal performance (cached instruction pre-fetch) */
-    __builtin_mtc0(16, 0,(__builtin_mfc0(16, 0) | 0x3));
+    __builtin_mtc0(16, 0,(__builtin_mfc0(16, 0) | 0x3U));
 
     /* Configure Wait States and Prefetch */
     CHECONbits.PFMWS = 2;
@@ -185,20 +203,33 @@ void SYS_Initialize ( void* data )
 
 
 
+    /* MISRAC 2012 deviation block start */
+    /* Following MISRA-C rules deviated in this block  */
+    /* MISRA C-2012 Rule 11.3 - Deviation record ID - H3_MISRAC_2012_R_11_3_DR_1 */
+    /* MISRA C-2012 Rule 11.8 - Deviation record ID - H3_MISRAC_2012_R_11_8_DR_1 */
+     #pragma coverity compliance block \
+     (deviate "MISRA C-2012 Rule 11.3" "H3_MISRAC_2012_R_11_3_DR_1" )\
+     (deviate "MISRA C-2012 Rule 11.8" "H3_MISRAC_2012_R_11_8_DR_1" )
+
+
 
     X2CScope_Init();
-    PMSM_FOC_Initialize();
 
-
+    #pragma coverity compliance end_block "MISRA C-2012 Rule 11.3"
+    #pragma coverity compliance end_block "MISRA C-2012 Rule 11.8"
+    /* MISRAC 2012 deviation block end */
     EVIC_Initialize();
 
 	/* Enable global interrupts */
-    __builtin_enable_interrupts();
+    (void)__builtin_enable_interrupts();
 
 
+
+    #pragma coverity compliance end_block "MISRA C-2012 Rule 2.2"
     /* MISRAC 2012 deviation block end */
 }
 
+#pragma GCC diagnostic pop
 
 /*******************************************************************************
  End of File

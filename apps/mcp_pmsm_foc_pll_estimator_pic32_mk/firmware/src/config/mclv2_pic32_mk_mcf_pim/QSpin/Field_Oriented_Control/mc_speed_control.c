@@ -217,8 +217,8 @@ void mcSpeI_SpeedControlAuto(  const tmcSpe_Parameters_s * const pParameters,
          float32_t error = nref - nact;
 
          /** ToDO: Calculate Ymax and Ymin based on the motor control states. Remove the magic numbers  */
-         pState->bPIController.Ymax = 10000.0f;
-         pState->bPIController.Ymin = -10000.0f;
+         pState->bPIController.Ymax = pParameters->Ymax;
+         pState->bPIController.Ymin = -pParameters->Ymax;
 
          mcUtils_PiControl( error, &pState->bPIController );
          *pOut = pState->bPIController.Yo;

@@ -102,7 +102,7 @@ __STATIC_INLINE void mcCur_InputsRead( tmcCur_Input_s * const pInput )
 
 __STATIC_INLINE void mcCur_ParametersSet( tmcCur_Parameters_s * const pParameters )
 {
-    pParameters->adcToCurrentFactor = (float32_t)(0.001074);
+    pParameters->adcToCurrentFactor = (float32_t)(0.002148);
     
 }
 

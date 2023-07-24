@@ -837,7 +837,8 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;GraphSettings canvasHeight=&quot;620&quot; canvasWidth=&quot;323&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BSP_PIC32MK_MCF_PIM_MC_Board&quot; x=&quot;0&quot; y=&quot;574&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;X2CScope&quot; x=&quot;124&quot; y=&quot;420&quot;/&gt;
@@ -849,7 +850,6 @@
         &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;uart2&quot; x=&quot;0&quot; y=&quot;401&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
-    &lt;GraphSettings canvasHeight=&quot;620&quot; canvasWidth=&quot;323&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -3938,7 +3938,7 @@
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\X2CCode\X2CScope\inc\X2CScopeCommunication.h</file>
-         <hash>fd5facc76afd74c7321055a89ed98ce225e492356a6f31fb95b5f2d332de3d4a</hash>
+         <hash>2d17bba9a1c3228f4704298b0c06a3397d9e5f9bb6c215202249cfe76cc83750</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\peripheral\uart\plib_uart2.c</file>
@@ -4014,11 +4014,11 @@
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_open_loop_startup.c</file>
-         <hash>941aaf946ec8c4a849a093f4fc9b299f0c35b8f85eda1f62999f97afb0e5f494</hash>
+         <hash>3375e68696233a9da7fdfc3cec9b0825addec23b60436bf879e0733a66088e73</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_speed_control.c</file>
-         <hash>1e0740e1ad330188de42a64956eb16b4771b6b2f6778114af087631201c0fbfb</hash>
+         <hash>b48aa696df798460100587a30243ff068b3846026dca9241da8b4d838f63ea33</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_pi_control.h</file>
@@ -4026,7 +4026,7 @@
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\initialization.c</file>
-         <hash>b4405d562e492d5617fc0d316faadc62bbfa804a5911ec62286881c4d0219992</hash>
+         <hash>34c987d0d6d7d21adcad77fb11fdcf67f1a657b2402ad9258df00543991e5f18</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_flying_start.h</file>
@@ -4034,7 +4034,7 @@
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_speed_control.h</file>
-         <hash>87f0f18769f4b204276054fa47c8e3855aa13c3fb57a5f6775266276d5f4c9f3</hash>
+         <hash>1045b7f8913a558d63bda91d8423ee0d24aff54946f52fe184aa0b15301f2be8</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Voltage_Calculation\mc_voltage_measurement.c</file>
@@ -4046,7 +4046,7 @@
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\definitions.h</file>
-         <hash>dc23cbb9c6a3f2efdea11380871d6778de8dc0d648e7a0c198171f01f174d48c</hash>
+         <hash>e728419bd402b9304234f6b6dcd1b370673b1bf90f45df46534a11f1108af3f3</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_reference_control.h</file>
@@ -4061,12 +4061,16 @@
          <hash>82afcdd3e8701f6a5aae33b248142e690f50fe1425ef7ecd31073bba996c89bc</hash>
       </entry>
       <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcf_pim\bsp\bsp.c</file>
+         <hash>c67b6294cff9844db10dc4cc9424374c1b21be88bcaef1fd4318c02e08946c17</hash>
+      </entry>
+      <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_flying_start.c</file>
          <hash>d9073ee84ad5ae669606d6aa6fec465230cadf013becdcc6c5ad66ca42136789</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_reference_control.c</file>
-         <hash>522b4961b7669b47e22568a78baa43b8cc5a8f5f89c4d81f4bdd449925a54a9d</hash>
+         <hash>db2e5eaf4f22885a91978f9f4682768dea3005e92dcabfd03b72ea98b3aa4202</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\p32MK1024MCF100.ld</file>
@@ -4075,6 +4079,10 @@
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\peripheral\gpio\plib_gpio.c</file>
          <hash>a0b19d2d40db7f2ed2155baf58eea26e7cc7e4f4c46213be6ac6b75edf4ee783</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcf_pim\bsp\bsp.h</file>
+         <hash>3f53b939d94526a9179e68248b06d6cd7ebb6159760dfeebe9a823567e6f14c4</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Current_Calculation\mc_current_calculation.c</file>
@@ -4090,7 +4098,7 @@
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\X2CCode\X2CScope\src\X2CScopeCommunication.c</file>
-         <hash>5a1619e28b15f3192d320f22bcb6db799c9d8bb7d49a419d5db94e6c0130c467</hash>
+         <hash>47e6eb6eb84c1df72f92830eeff00b4bb60e65325ca2c079aae46171c446a8a3</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_flux_control.c</file>
@@ -4098,15 +4106,15 @@
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Current_Calculation\mc_current_calculation.h</file>
-         <hash>b3b4dbf6344f38f3098b25c7493a47416b2bb1d5c2976c7e00613387da322c0b</hash>
+         <hash>cb51ed472417bf1c625c8617ab80df0d17068bfad5d674424655597c323e6ad0</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_field_oriented_control.c</file>
-         <hash>0496a46ba2b207437f9e4c0ee099dbd122cc1a8a7f6d2244378d131986551d53</hash>
+         <hash>4d29e0ab1fc9b76aa5ce37ef779224ab2cca0191d784726ec32f94bf9ad5159d</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\X2CCode\X2CScope\inc\X2CScope.h</file>
-         <hash>d9ee6e53198dda1c1cf2982d9769cfd8f011538aa7c38304a324110cc32f8f04</hash>
+         <hash>7f721b6a96d0c5a0cf3894824323e253ed87afd8b3fd3bba5830f74df4261f70</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\peripheral\clk\plib_clk.c</file>
@@ -4162,7 +4170,7 @@
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcf_pim\X2CCode\X2CScope\src\X2CScope.c</file>
-         <hash>bb60724b6946a3d5e51f5f7f227a304cabcecba3851d7e6d40a1a04306a45a2e</hash>
+         <hash>a1d408c082ab60740cec1e371807db074468fb363185c9041f4663d33921edd4</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>

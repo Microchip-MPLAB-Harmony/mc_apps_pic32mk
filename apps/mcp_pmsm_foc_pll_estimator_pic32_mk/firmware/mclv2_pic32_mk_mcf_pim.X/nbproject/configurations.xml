@@ -8,6 +8,9 @@
         <logicalFolder name="mclv2_pic32_mk_mcf_pim"
                        displayName="mclv2_pic32_mk_mcf_pim"
                        projectFiles="true">
+          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
+            <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/bsp/bsp.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="adchs" displayName="adchs" projectFiles="true">
               <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/peripheral/adchs/plib_adchs_common.h</itemPath>
@@ -101,6 +104,9 @@
         <logicalFolder name="mclv2_pic32_mk_mcf_pim"
                        displayName="mclv2_pic32_mk_mcf_pim"
                        projectFiles="true">
+          <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
+            <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/bsp/bsp.c</itemPath>
+          </logicalFolder>
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="adchs" displayName="adchs" projectFiles="true">
               <itemPath>../src/config/mclv2_pic32_mk_mcf_pim/peripheral/adchs/plib_adchs.c</itemPath>

@@ -108,7 +108,8 @@ Macro Functions
 /**
  *  Open loop angle to close loop angle transition rate. 
  */
-#define ROTOR_ANGLE_RAMP_RATE     (float32_t)( 1.0e-5 )
+#define ROTOR_ANGLE_RAMP_RATE     (float32_t)( 2.0e-5 )
+
 
 /*******************************************************************************
 Private Functions

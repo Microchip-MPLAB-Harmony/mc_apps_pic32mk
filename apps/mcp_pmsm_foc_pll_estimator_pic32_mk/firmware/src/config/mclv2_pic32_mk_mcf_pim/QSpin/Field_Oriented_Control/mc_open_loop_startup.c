@@ -239,11 +239,12 @@ tmcTypes_StdReturn_e mcSupI_OpenLoopStartup( const tmcSup_Parameters_s * const p
 
     if( pState->enable )
     {
-         /** Execute open loop start-up */
+        /** Execute open loop start-up */
         switch(pState->StartupState)
         {
             case startupState_Align:
             {
+
                 ++pState->zCounter;
 
                 if( pState->zCounter <= ( pState->alignmentTimeLoopCount >> 1u ) )

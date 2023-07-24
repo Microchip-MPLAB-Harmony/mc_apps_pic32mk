@@ -59,6 +59,7 @@ typedef struct
      float32_t Kp;
      float32_t Ki;
      float32_t dt;
+     float32_t Ymax;
      void * pStatePointer;
 }tmcSpe_Parameters_s;
 
@@ -86,6 +87,7 @@ __STATIC_INLINE void mcSpeI_ParametersSet( tmcSpe_Parameters_s * const pParamete
    pParameters->Kp = (float32_t)0.005;
    pParameters->Ki = (float32_t)0.002;
    pParameters->dt = (float32_t)(0.00005);
+   pParameters->Ymax = (float32_t)(4);
 }
 
 /*******************************************************************************

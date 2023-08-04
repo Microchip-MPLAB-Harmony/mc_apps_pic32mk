@@ -19,8 +19,7 @@ and microprocessor devices.  Refer to the following links for more information.
  - [Microchip MPLAB Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
 This repository contains the MPLAB® Harmony 3 Motor Control application exmaples for PIC32MK family. Users can use these examples as a reference for
-developing their own motor control applications. Refer to the following links for release
-notes and licensing information.
+developing their own motor control applications. Refer to the following links for release notes and licensing information.
 
  - [Release Notes](./release_notes.md)
  - [MPLAB Harmony License](mplab_harmony_license.md)
@@ -29,32 +28,18 @@ notes and licensing information.
 
 | Folder     | Description                                               |
 |------------|-----------------------------------------------------------|
-| apps       | Demonstration applications for Motor Control              |
+| apps       | Demonstration applications for Motor Control. Refer [Demonstration applications](#demonstration-applications) section for details.             |
 | docs       | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/mc_apps_pic32mk/) of this repository for viewing it online.|
-|||
 
+## Demonstration applications
+The following demonstration applications are provided in this repository. Click on the links to explore the respective demo applications.
 
-## Configurable Motor Control Examples (MCC with Harmony QSpin Motor Control)
-
-The following applications are provided to demonstrate Harmony QSpin to generate motor control firmware. 
-
-| Name | Description|Control Board|Inverter Board|
-|:-----|:-----------|:------------|:-------------|
-| [PMSM FOC using PLL Estimator](apps/mcp_pmsm_foc_pll_estimator_pic32_mk/readme.md) | Sensorless Field Oriented Control of PMSM using PLL Estimator |[PIC32MK MCM Motor Control Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211) <br  /> [PIC32MK MCF Motor Control Plugin Module](https://www.microchip.com/Developmenttools/ProductDetails/MA320024)| [dsPICDEM™ MCLV-2 Support](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2) |
-| [PMSM FOC using Quadrature Encoder](apps/mcp_pmsm_foc_encoder_pic32_mk/readme.md) | Sensored Field Oriented Control of PMSM using Quadrature Encoder |[PIC32MK MCM Motor Control Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211)  <br  /> [PIC32MK MCF Motor Control Plugin Module](https://www.microchip.com/Developmenttools/ProductDetails/MA320024)| [dsPICDEM™ MCLV-2 Support](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2) |
-|||||
-
-
-## Static Motor Control Examples
-
-These applications contain static algorithm code and peripherals are configured using MHC. Configurations can be changed in userparam.h file.
- 
-| Name | Description|Control Board|Inverter Board|
-|:-----|:-----------|:------------|:-------------|
-| [PMSM FOC using PLL Estimator](apps/pmsm_foc_pll_estimator_pic32_mk/readme.md) | Sensorless Field Oriented Control of PMSM using PLL Estimator |[PIC32MK MCM Motor Control Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211) <br  /> [PIC32MK MCF Motor Control Plugin Module](https://www.microchip.com/Developmenttools/ProductDetails/MA320024)| [dsPICDEM™ MCLV-2 Support](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2) <br  />[dsPICDEM™ MCHV-3 Support](https://www.microchip.com/developmenttools/ProductDetails/dm330023-3) |
-| [PMSM FOC using Quadrature Encoder](apps/pmsm_foc_encoder_pic32_mk/readme.md) | Sensored Field Oriented Control of PMSM using Quadrature Encoder |[PIC32MK MCM Motor Control Plugin Module](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MA320211)  <br  /> [PIC32MK MCF Motor Control Plugin Module](https://www.microchip.com/Developmenttools/ProductDetails/MA320024)| [dsPICDEM™ MCLV-2 Support](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2) <br  />[dsPICDEM™ MCHV-3 Support](https://www.microchip.com/developmenttools/ProductDetails/dm330023-3) |
-|||||
-
+| Name | Description|
+|:-----|:-----------|
+| [Sensorless FOC on PMSM using PLL Estimator](apps/mcp_pmsm_foc_pll_estimator_pic32_mk/readme.md) |  This demo project presents the implementation of Sensorless Field Oriented Control (FOC) for PMSM using a Phase-Locked Loop (PLL) estimator|
+| [Sensored FOC on PMSM using Quadrature Encoder](apps/mcp_pmsm_foc_encoder_pic32_mk/readme.md) | This demo project demonstrates the implementation of Sensored Field Oriented Control (FOC) on a PMSM using a quadrature encoder. |
+| [Sensorless FOC on PMSM using Sliding mode observer](apps/mcp_pmsm_foc_encoder_pic32_mk/readme.md) | This demo project presents the implementation of Sensorless Field Oriented Control (FOC) for PMSM using a sliding mode observer estimator |
+| [Sensorless FOC on PMSM using ZS/MT Hybrid Estimator](apps/pmsm_foc_zsmt_hybrid_pic32_mk/readme.md) | This demo project presents the implementation of Sensorless Field Oriented Control (FOC) for PMSM using a ZS/MT Hybrid estimator |
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/mc/blob/master/mplab_harmony_license.md)
 [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/mc_apps_pic32mk.svg)](https://github.com/Microchip-MPLAB-Harmony/mc/releases/latest)

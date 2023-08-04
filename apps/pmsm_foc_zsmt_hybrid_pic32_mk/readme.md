@@ -21,7 +21,7 @@ Key features enabled in this project are:
 - Speed control loop
 - Hybrid ZS/MT
 
-This demonstration project contains dummy libraries for IPD and ZS/MT hybrid and IPD algorithms. Kindly contact [Microchip Local Sales]() to get access to actual libraries. You can still use ```pic32mk_mcf_zsmt_firmware.hex``` for PIC32MK MCF devices, and  ```pic32mk_mcm_zsmt_firmware```for PIC32MK MCM devices to evaluate the project.
+This demonstration project contains dummy libraries for IPD and ZS/MT hybrid and IPD algorithms. Kindly contact [Microchip Local Sales](https://www.microchip.com/mcu32ZSMT) to get access to actual libraries. You can still use ```pic32mk_mcf_zsmt_firmware.hex``` for PIC32MK MCF devices, and  ```pic32mk_mcm_zsmt_firmware```for PIC32MK MCM devices to evaluate the project.
 
 **Note**: Evaluation of ```pic32mk_mcm_zsmt_firmware``` for PIC32MK MCM requires PIM modification. Remove the external op-amp circuitary for current measurement. Contact us in case of queries.
 

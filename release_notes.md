@@ -7,6 +7,43 @@ nav_order: 99
 ![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
 
 # Microchip MPLAB® Harmony 3 Release Notes
+
+
+## Microchip MPLAB® Harmony 3 Motor Control Application Examples for PIC32MK family v3.4.0
+
+
+### Applications
+
+| Development Board | Number of Applications | 
+| --- | --- | 
+| [dsPICDEM™ MCLV-2 Low Voltage Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2) | 9 |
+| [dsPICDEM™ MCHV-3 High Voltage Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm330023-3) | 5 |
+
+### New Features
+* Added SMO based sensorless FOC project with PIC32MK MCM and dsPICDEM MCLV2 board 
+* Added ZS/MT Hybrid estimator  based sensorless FOC project with PIC32MK MCM and dsPICDEM MCLV2 board 
+* Added ZS/MT Hybrid estimator  based sensorless FOC project with PIC32MK MCF and dsPICDEM MCLV2 board 
+* MISRA-C Compliance for motor control files 
+* Deprecate static projects for PLL based sensorless FOC project
+* Deprecate static projects for encoder based sensored FOC project
+
+### Known Issues
+
+* same as v3.1.0
+
+### Required MPLAB Harmony v3 Modules
+* bsp v3.17.0
+* motor_control v3.10.0
+* x2c v1.4.0
+
+### Development Tools
+
+* [MPLAB X IDE v6.10](https://www.microchip.com/mplab/mplab-x-ide)
+* [MPLAB XC32 C/C++ Compiler v4.30](https://www.microchip.com/mplab/compilers)
+* MPLAB X IDE plug-ins:
+  * MPLAB Code Configurator (MCC) v5.3.7
+  * X2CScope v1.3.3.
+
 ## Microchip MPLAB® Harmony 3 Motor Control Application Examples for PIC32MK family v3.3.0
 
 

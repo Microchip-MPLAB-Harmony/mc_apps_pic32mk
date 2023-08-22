@@ -17,5 +17,5 @@ modules:
     - {name: "dev_packs", version: "v3.17.0"}
     - {name: "x2c", version: "v1.4.0"}
     - {name: "motor_control", version: "v3.10.0"}
-    - {name: "bsp", version: "v3.16.0"}
+    - {name: "bsp", version: "v3.16.1"}
 

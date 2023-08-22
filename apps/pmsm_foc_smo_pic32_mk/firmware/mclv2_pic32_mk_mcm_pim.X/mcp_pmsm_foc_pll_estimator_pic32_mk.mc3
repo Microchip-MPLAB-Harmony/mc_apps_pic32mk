@@ -1,4 +1,4 @@
-<config configName="mclv2_pic32_mk_mcm_pim" projectName="mcp_pmsm_foc_pll_estimator_pic32_mk" configVersion="1.1" device="PIC32MK1024MCM100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.0">
+<config configName="mclv2_pic32_mk_mcm_pim" projectName="mcp_pmsm_foc_pll_estimator_pic32_mk" configVersion="1.1" device="PIC32MK1024MCM100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.7">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -837,8 +837,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;550&quot; canvasWidth=&quot;286&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BSP_PIC32MK_MCM_PIM_MC_Board&quot; x=&quot;1&quot; y=&quot;480&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;X2CScope&quot; x=&quot;139&quot; y=&quot;329&quot;/&gt;
@@ -850,6 +849,7 @@
         &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;uart2&quot; x=&quot;0&quot; y=&quot;279&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;550&quot; canvasWidth=&quot;286&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -3929,19 +3929,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="opt_rpo_sensorless_smo.c"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;opt_rpo_sensorless_smo.c&quot;&gt;
-    &lt;Attributes dnOrder=&quot;0&quot;&gt;
-      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
-      &lt;/Boolean&gt;
-    &lt;/Attributes&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="opt_rpo_sensorless_smo.h"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
   &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;opt_rpo_sensorless_smo.h&quot;&gt;
@@ -4063,254 +4050,246 @@
 </value>
       </entry>
    </tokenMap>
-   <generatedFileHashHistoryMap class="java.util.HashMap">
+   <generatedFileHashHistoryMap class="java.util.TreeMap">
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_field_oriented_control.c</file>
-         <hash>132363634649b96fd6ba0597a041ecc1e967b12c3b5ddbaff7e7d04c32d5ee75</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Current_Calculation\mc_current_calculation.c</file>
+         <hash>48145df4181085368179ac0b64b900fc8316977bd595a69277e3133fd186caa2</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Current_Calculation\mc_current_calculation.h</file>
          <hash>b3b4dbf6344f38f3098b25c7493a47416b2bb1d5c2976c7e00613387da322c0b</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_pi_control.h</file>
-         <hash>08eac04c7f6b077dab17e7fbd4726c2815a49fa83c11441a8491aaa7b984ba82</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_pi_control.c</file>
-         <hash>d64c9c7099c2336b0dfb62cd58fa1cd9cdde9e2bed432aa1a24b025685094307</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_field_oriented_control.c</file>
+         <hash>132363634649b96fd6ba0597a041ecc1e967b12c3b5ddbaff7e7d04c32d5ee75</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_field_oriented_control.h</file>
          <hash>0f50fe072345d2f8ae849f206182b74322630ac49135f93970d7965fbc082991</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Current_Calculation\mc_current_calculation.c</file>
-         <hash>48145df4181085368179ac0b64b900fc8316977bd595a69277e3133fd186caa2</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_flux_control.c</file>
+         <hash>5794d24b5a1b1c7549d6194664c3f18d870bca1258be6513815539390b167716</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs.h</file>
-         <hash>f2b12690d16b961f17bb97b98a811a6f87b6c6aeac58cc4c1f01eefebf119c44</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\bsp\bsp.h</file>
-         <hash>2ddc7192355bb2520069298ac05105b08860b740826c829efeba02065a346dc7</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_flying_start.h</file>
-         <hash>1deb30dd62fdf7354ca0150d95a5a640764349133dee9955953f44e4aa2a53c9</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Voltage_Calculation\mc_voltage_measurement.h</file>
-         <hash>163cb59cfdd34ceb81ea2ed71685616ddbdff7df1cb59f4c8119a86a13d054c3</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\clk\plib_clk.c</file>
-         <hash>6d166696269c87252d8f2eae62171e2f8ea9d204f1df1ca0b0283c4102bc005d</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Voltage_Calculation\mc_voltage_measurement.c</file>
-         <hash>bc5378b5aa674f8c9e0a50f299b645fb985a047c86721757430fcdacc2f9c872</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart2.c</file>
-         <hash>c1b0d7d49f0ada9c859364438906f1e7451863931ca51616405f7ff17a6f2b0d</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\startup.bat</file>
-         <hash>953a3244db4beef162ceb49d0a19bf1901f6c347c401ec9b1e4286bc64109d18</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\MotorParameters.sce</file>
-         <hash>d83303912dcb2093131cad0cca3d436f323b2d07af03d9a1b99029abd7b124c6</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_torque_control.h</file>
-         <hash>f3c89d70f2fae3a246e0b755b7e93b82f1c50f7857c6fa1a5e7a8a1de1e5bf26</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_flux_control.h</file>
+         <hash>598f457649a96ea657150d5190810b8faeb36355e91fa3c85dc96756ad98eb28</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_flying_start.c</file>
          <hash>d9073ee84ad5ae669606d6aa6fec465230cadf013becdcc6c5ad66ca42136789</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Hardware_Abstraction\mc_hardware_abstraction.c</file>
-         <hash>3d40cab80f5345f7c9db77c5dfdd2bd6029aa5172acf7d9860cab972d59d270b</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_types.h</file>
-         <hash>f78cdac4a1abddb318fcbd62dd850eb4a589fd02dfc9386ed8c333270cedba00</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_torque_control.c</file>
-         <hash>7a857b67a0a80055eb74eb916ce1019abbe577f3206fa97fa060dab1ca49248f</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart2.h</file>
-         <hash>befdf8af1d298b9f644c10db88121e51e246afb6b6aa8c2540bff280169b71bb</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\bsp\bsp.c</file>
-         <hash>c67b6294cff9844db10dc4cc9424374c1b21be88bcaef1fd4318c02e08946c17</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Hardware_Abstraction\mc_hardware_abstraction.h</file>
-         <hash>dc8dbc98d49f16083b42abc077eaa45f7520cef000da8db404d647f7822c0f78</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\src\X2CScope.c</file>
-         <hash>8096675cff04169addefeb1190f7348d9e3bf326966152fb50a94e842829532d</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\BoardParameters.sce</file>
-         <hash>d079be1a8bda0ab261edafc0e99aae8bf0ab98210e07703f570ddd5d08cd3609</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_flying_start.h</file>
+         <hash>1deb30dd62fdf7354ca0150d95a5a640764349133dee9955953f44e4aa2a53c9</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_initial_position_detection.h</file>
          <hash>2c233dfd8b7c88f1052e330986cc84d9459cabbb2e8a573640f27984dfb84580</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\exceptions.c</file>
-         <hash>cce6a32d0923c175f2b9e48f5e8a2c9566e5ceab6796bf10bd89107f57a233b3</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_motor.c</file>
+         <hash>4ae8246b4d91b30b322e569418573cd674805c832c53f38f25a8614a099a51b7</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_application.h</file>
-         <hash>14b2370cf3babc58737196b9ddd18482646f1867441c930f5028b3ca69d761f4</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\inc\X2CScope.h</file>
-         <hash>ad102a16a05244169e93de67c17f824b9fb01a736529d3274d7a5f894720f7e4</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\definitions.h</file>
-         <hash>0f6ad0f6e59b3c1c134c9bcc52a828e40e433f11e6012077581038452490ca94</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\interrupts.h</file>
-         <hash>f2bf57fae8e5929be872ae42c822d2f34696670e8377664698ab4eed18003b7c</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\gpio\plib_gpio.h</file>
-         <hash>754b6f1668721fe27cdf745000d54cfd65400e3873520bdf04b8d6583192c6a4</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\clk\plib_clk.h</file>
-         <hash>35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\gpio\plib_gpio.c</file>
-         <hash>f0dee970eed16e8efcbcba2b250fe98eb5a373a06c12b59d0bd906af774891de</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\stdio\xc32_monitor.c</file>
-         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_pwm.h</file>
-         <hash>518f55797dad4c3172c6891837b63e93b2c7c81c0038d3384adcf4c370592682</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Utilities\mc_utilities.c</file>
-         <hash>c30804e74e993454a088a9a4696165210e5f93cb8a305ca312b7595a887cde05</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\initProject.sce</file>
-         <hash>14944ee47c8df1fc87d51a95d9cef115ed01ac02ea8ab3111d7d2a4d9f2f335a</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\interrupts.c</file>
-         <hash>693530f73060442b69c6c0fe5a19f89140187364396ca7695d011f88abfa8493</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Utilities\mc_utilities.h</file>
-         <hash>4d62a2e8646b093c674ba4dcec77098066a6b77a765f7cc3c0768c19a88ac139</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_key_manager.h</file>
-         <hash>4987bf61478d889590e7fb2e4a9e16231e0746b68c549d9813651514c263531f</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_application.c</file>
-         <hash>b1028465f520558a740d39c7bd1535ea58326484513580b98a09cb5a52f5cfa1</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_key_manager.c</file>
-         <hash>8c017904ab000268d0347da75faf13f1a065a703954698e28dc8370b081bbec9</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_pwm.c</file>
-         <hash>b353ca8b12fe45ffb794369030cc105d5df40d1e6ba5989a4df4b765780b4d01</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_speed_control.h</file>
-         <hash>87f0f18769f4b204276054fa47c8e3855aa13c3fb57a5f6775266276d5f4c9f3</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_reference_control.h</file>
-         <hash>f2f2295a5754191224ac0eef151ea7158c6b3daf7b953f2f85757ce879e20f22</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_reference_control.c</file>
-         <hash>522b4961b7669b47e22568a78baa43b8cc5a8f5f89c4d81f4bdd449925a54a9d</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm.c</file>
-         <hash>cdc303f47ae4040b04f444a73718671a3f36a6d75ad860e33002696d25149ef4</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_speed_control.c</file>
-         <hash>1e0740e1ad330188de42a64956eb16b4771b6b2f6778114af087631201c0fbfb</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart_common.h</file>
-         <hash>ca9d0fbb7be0b3364d2e25e71e0b1a53b2f52de1cd27df4d7f8a41135298e45e</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\lib\libPIC32MK_X2CScope.a</file>
-         <hash>99462469ca3b4ccba8ac0720cd48a3953172737e2d9632ea27dbc31bfdcc63fa</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\p32MK1024MCM100.ld</file>
-         <hash>fd47bd624612f16402f25f713f60a80f1f31f37401494c32b9599f942f732385</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\ModelParameters.sce</file>
-         <hash>940c038c76ca95eb5f0a18fec23ab59ead7884ea044ee8e22d67f62a2522a5d5</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_open_loop_startup.h</file>
-         <hash>8ba44137cf27c9d89a3ed849cda8cb68e1a5b9edf8fffc5ebe8b2ac9f58a82e0</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_rotor_position_calculation.h</file>
-         <hash>cdbb523e2f843366316560fa5bb1b1dc9b70e9a516ec64ebb470971c5839fee0</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm_common.h</file>
-         <hash>6cf89dafd055f8069733a21a79279bfc30669469731fa7ba3485802a34877446</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_motor.h</file>
+         <hash>fc916923e48a87ae03c5ad0bf0e4d7e6a5c3b49fbb04d9b98be3f2858ecb0d5a</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_open_loop_startup.c</file>
          <hash>941aaf946ec8c4a849a093f4fc9b299f0c35b8f85eda1f62999f97afb0e5f494</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\inc\X2CScopeCommunication.h</file>
-         <hash>4ea2375b944bb3f41ef0393be8e3d142abf1c3b0af8c1436fbc60743b0ceda70</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_open_loop_startup.h</file>
+         <hash>8ba44137cf27c9d89a3ed849cda8cb68e1a5b9edf8fffc5ebe8b2ac9f58a82e0</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs_common.h</file>
-         <hash>18a4bd540fb7f7df00d9f4485be74639f45ee9171b48706454c2bf0fd0f91cd7</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_pi_control.c</file>
+         <hash>d64c9c7099c2336b0dfb62cd58fa1cd9cdde9e2bed432aa1a24b025685094307</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_pi_control.h</file>
+         <hash>08eac04c7f6b077dab17e7fbd4726c2815a49fa83c11441a8491aaa7b984ba82</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_pwm.c</file>
+         <hash>b353ca8b12fe45ffb794369030cc105d5df40d1e6ba5989a4df4b765780b4d01</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_pwm.h</file>
+         <hash>518f55797dad4c3172c6891837b63e93b2c7c81c0038d3384adcf4c370592682</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_reference_control.c</file>
+         <hash>522b4961b7669b47e22568a78baa43b8cc5a8f5f89c4d81f4bdd449925a54a9d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_reference_control.h</file>
+         <hash>f2f2295a5754191224ac0eef151ea7158c6b3daf7b953f2f85757ce879e20f22</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_rotor_position_calculation.c</file>
          <hash>538e93850fe68a64bed2dbe4f84391041534c94ee1e83b417fb3632199e3d684</hash>
       </entry>
       <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_rotor_position_calculation.h</file>
+         <hash>cdbb523e2f843366316560fa5bb1b1dc9b70e9a516ec64ebb470971c5839fee0</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_speed_control.c</file>
+         <hash>1e0740e1ad330188de42a64956eb16b4771b6b2f6778114af087631201c0fbfb</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_speed_control.h</file>
+         <hash>87f0f18769f4b204276054fa47c8e3855aa13c3fb57a5f6775266276d5f4c9f3</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_torque_control.c</file>
+         <hash>7a857b67a0a80055eb74eb916ce1019abbe577f3206fa97fa060dab1ca49248f</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_torque_control.h</file>
+         <hash>f3c89d70f2fae3a246e0b755b7e93b82f1c50f7857c6fa1a5e7a8a1de1e5bf26</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Hardware_Abstraction\mc_hardware_abstraction.c</file>
+         <hash>3d40cab80f5345f7c9db77c5dfdd2bd6029aa5172acf7d9860cab972d59d270b</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Hardware_Abstraction\mc_hardware_abstraction.h</file>
+         <hash>dc8dbc98d49f16083b42abc077eaa45f7520cef000da8db404d647f7822c0f78</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Utilities\mc_utilities.c</file>
+         <hash>c30804e74e993454a088a9a4696165210e5f93cb8a305ca312b7595a887cde05</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Utilities\mc_utilities.h</file>
+         <hash>4d62a2e8646b093c674ba4dcec77098066a6b77a765f7cc3c0768c19a88ac139</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Voltage_Calculation\mc_voltage_measurement.c</file>
+         <hash>bc5378b5aa674f8c9e0a50f299b645fb985a047c86721757430fcdacc2f9c872</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Voltage_Calculation\mc_voltage_measurement.h</file>
+         <hash>163cb59cfdd34ceb81ea2ed71685616ddbdff7df1cb59f4c8119a86a13d054c3</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_application.c</file>
+         <hash>b1028465f520558a740d39c7bd1535ea58326484513580b98a09cb5a52f5cfa1</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_application.h</file>
+         <hash>14b2370cf3babc58737196b9ddd18482646f1867441c930f5028b3ca69d761f4</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_key_manager.c</file>
+         <hash>8c017904ab000268d0347da75faf13f1a065a703954698e28dc8370b081bbec9</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_key_manager.h</file>
+         <hash>4987bf61478d889590e7fb2e4a9e16231e0746b68c549d9813651514c263531f</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\mc_types.h</file>
+         <hash>f78cdac4a1abddb318fcbd62dd850eb4a589fd02dfc9386ed8c333270cedba00</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\BoardParameters.sce</file>
+         <hash>d079be1a8bda0ab261edafc0e99aae8bf0ab98210e07703f570ddd5d08cd3609</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\ModelParameters.sce</file>
+         <hash>940c038c76ca95eb5f0a18fec23ab59ead7884ea044ee8e22d67f62a2522a5d5</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\MotorParameters.sce</file>
+         <hash>d83303912dcb2093131cad0cca3d436f323b2d07af03d9a1b99029abd7b124c6</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\inc\X2CScope.h</file>
+         <hash>ad102a16a05244169e93de67c17f824b9fb01a736529d3274d7a5f894720f7e4</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\inc\X2CScopeCommunication.h</file>
+         <hash>4ea2375b944bb3f41ef0393be8e3d142abf1c3b0af8c1436fbc60743b0ceda70</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\lib\libPIC32MK_X2CScope.a</file>
+         <hash>99462469ca3b4ccba8ac0720cd48a3953172737e2d9632ea27dbc31bfdcc63fa</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\src\X2CScope.c</file>
+         <hash>8096675cff04169addefeb1190f7348d9e3bf326966152fb50a94e842829532d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\src\X2CScopeCommunication.c</file>
+         <hash>621611a9d732dd75c3045c652a3a1f13c22d39eb193648265391504e527bcacd</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\initProject.sce</file>
+         <hash>14944ee47c8df1fc87d51a95d9cef115ed01ac02ea8ab3111d7d2a4d9f2f335a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\startup.bat</file>
+         <hash>953a3244db4beef162ceb49d0a19bf1901f6c347c401ec9b1e4286bc64109d18</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\bsp\bsp.c</file>
+         <hash>c67b6294cff9844db10dc4cc9424374c1b21be88bcaef1fd4318c02e08946c17</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\bsp\bsp.h</file>
+         <hash>2ddc7192355bb2520069298ac05105b08860b740826c829efeba02065a346dc7</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\definitions.h</file>
+         <hash>0f6ad0f6e59b3c1c134c9bcc52a828e40e433f11e6012077581038452490ca94</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\device.h</file>
+         <hash>10ec93c43a7b158a129ae05bd8f4a59ff5bcf3d0f3f062fdd64c374bc2d42099</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\exceptions.c</file>
+         <hash>cce6a32d0923c175f2b9e48f5e8a2c9566e5ceab6796bf10bd89107f57a233b3</hash>
+      </entry>
+      <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\initialization.c</file>
          <hash>19eb2fa1b85fc909053ad4573c58efa62524468fdd8e167c3df6b70ac80fa7ef</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\toolchain_specifics.h</file>
-         <hash>38b3e0e3652463c4c84dc445fd0af062ddf1e36ce2aefeae250f3f0c4fef5685</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\interrupts.c</file>
+         <hash>693530f73060442b69c6c0fe5a19f89140187364396ca7695d011f88abfa8493</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\interrupts.h</file>
+         <hash>f2bf57fae8e5929be872ae42c822d2f34696670e8377664698ab4eed18003b7c</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\p32MK1024MCM100.ld</file>
+         <hash>fd47bd624612f16402f25f713f60a80f1f31f37401494c32b9599f942f732385</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs.c</file>
+         <hash>c8a7b6c93c27a29ae03e4bd507623a57a361990bd1a89632f20a6c64b4365cce</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs.h</file>
+         <hash>f2b12690d16b961f17bb97b98a811a6f87b6c6aeac58cc4c1f01eefebf119c44</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs_common.h</file>
+         <hash>18a4bd540fb7f7df00d9f4485be74639f45ee9171b48706454c2bf0fd0f91cd7</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\clk\plib_clk.c</file>
+         <hash>6d166696269c87252d8f2eae62171e2f8ea9d204f1df1ca0b0283c4102bc005d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\clk\plib_clk.h</file>
+         <hash>35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\evic\plib_evic.c</file>
@@ -4321,40 +4300,48 @@
          <hash>4be84b89c0045ebe71e047ba144f9c4d1ffc22215df21a62c7763d18b556c5bb</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\X2CCode\X2CScope\src\X2CScopeCommunication.c</file>
-         <hash>621611a9d732dd75c3045c652a3a1f13c22d39eb193648265391504e527bcacd</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\gpio\plib_gpio.c</file>
+         <hash>f0dee970eed16e8efcbcba2b250fe98eb5a373a06c12b59d0bd906af774891de</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_motor.c</file>
-         <hash>4ae8246b4d91b30b322e569418573cd674805c832c53f38f25a8614a099a51b7</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\gpio\plib_gpio.h</file>
+         <hash>754b6f1668721fe27cdf745000d54cfd65400e3873520bdf04b8d6583192c6a4</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm.c</file>
+         <hash>cdc303f47ae4040b04f444a73718671a3f36a6d75ad860e33002696d25149ef4</hash>
       </entry>
       <entry>
          <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm.h</file>
          <hash>0119fb851908ec33ee05f6e26fd77926627382cc069f7efcc28cd57ed3cbc86c</hash>
       </entry>
       <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_flux_control.c</file>
-         <hash>5794d24b5a1b1c7549d6194664c3f18d870bca1258be6513815539390b167716</hash>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\mcpwm\plib_mcpwm_common.h</file>
+         <hash>6cf89dafd055f8069733a21a79279bfc30669469731fa7ba3485802a34877446</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart2.c</file>
+         <hash>c1b0d7d49f0ada9c859364438906f1e7451863931ca51616405f7ff17a6f2b0d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart2.h</file>
+         <hash>befdf8af1d298b9f644c10db88121e51e246afb6b6aa8c2540bff280169b71bb</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\uart\plib_uart_common.h</file>
+         <hash>ca9d0fbb7be0b3364d2e25e71e0b1a53b2f52de1cd27df4d7f8a41135298e45e</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\stdio\xc32_monitor.c</file>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\mclv2_pic32_mk_mcm_pim\toolchain_specifics.h</file>
+         <hash>38b3e0e3652463c4c84dc445fd0af062ddf1e36ce2aefeae250f3f0c4fef5685</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
          <hash>33c126fe83707919bb087f63637bf0203956703d3f63cbb0b8610c83dd3345be</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_motor.h</file>
-         <hash>fc916923e48a87ae03c5ad0bf0e4d7e6a5c3b49fbb04d9b98be3f2858ecb0d5a</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\peripheral\adchs\plib_adchs.c</file>
-         <hash>c8a7b6c93c27a29ae03e4bd507623a57a361990bd1a89632f20a6c64b4365cce</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\device.h</file>
-         <hash>10ec93c43a7b158a129ae05bd8f4a59ff5bcf3d0f3f062fdd64c374bc2d42099</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mclv2_pic32_mk_mcm_pim\QSpin\Field_Oriented_Control\mc_flux_control.h</file>
-         <hash>598f457649a96ea657150d5190810b8faeb36355e91fa3c85dc96756ad98eb28</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

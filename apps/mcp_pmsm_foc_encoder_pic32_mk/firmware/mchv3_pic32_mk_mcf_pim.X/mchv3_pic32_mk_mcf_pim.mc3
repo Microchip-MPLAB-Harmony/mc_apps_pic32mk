@@ -6396,7 +6396,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_12_FUNCTION_NAME"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_12_FUNCTION_NAME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;I_B&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -6425,7 +6427,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_14_FUNCTION_NAME"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_14_FUNCTION_NAME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;I_A&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -6811,7 +6815,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_72_FUNCTION_NAME"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_72_FUNCTION_NAME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -6820,7 +6826,9 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="BSP_PIN_72_FUNCTION_TYPE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;BSP_PIN_72_FUNCTION_TYPE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -15290,45 +15298,9 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_CURRENT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_CURRENT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_DETECTION_TIME"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
   &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_DETECTION_TIME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_D_CONTROLLER_KC"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_D_CONTROLLER_KC&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_D_CONTROLLER_KI"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_D_CONTROLLER_KI&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_D_CONTROLLER_KP"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_D_CONTROLLER_KP&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/pmsm_foc&gt;
 &lt;/pmsm_foc&gt;
@@ -15344,45 +15316,9 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_NULL_VECTOR_TIME"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_NULL_VECTOR_TIME&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_PEAK_BRAKE_CURRENT"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
   &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_PEAK_BRAKE_CURRENT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_Q_CONTROLLER_KC"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_Q_CONTROLLER_KC&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_Q_CONTROLLER_KI"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_Q_CONTROLLER_KI&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/pmsm_foc&gt;
-&lt;/pmsm_foc&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="pmsm_foc" name="MCPMSMFOC_FLY_START_Q_CONTROLLER_KP"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;pmsm_foc&gt;
-  &lt;pmsm_foc dnOrder=&quot;0&quot; id=&quot;MCPMSMFOC_FLY_START_Q_CONTROLLER_KP&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/pmsm_foc&gt;
 &lt;/pmsm_foc&gt;
@@ -18112,7 +18048,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_motor.c</file>
-         <hash>4ae8246b4d91b30b322e569418573cd674805c832c53f38f25a8614a099a51b7</hash>
+         <hash>2fd6aa772bc4d21f1648bf58e3ce630213243e5434f8950bfecc332b99e9c3f2</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\uart\plib_uart_common.h</file>
@@ -18120,7 +18056,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_speed_control.c</file>
-         <hash>b48aa696df798460100587a30243ff068b3846026dca9241da8b4d838f63ea33</hash>
+         <hash>94daa414a9b442b4b2ac19737b85be54972870f5ebe22c66bc56c38f6acff7fa</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\exceptions.c</file>
@@ -18128,35 +18064,31 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_speed_control.h</file>
-         <hash>e29bfbbd84bffd3ff767dbab79db8fc803c4ab8be81aca9c6695f8a7eaea8220</hash>
+         <hash>3923f44c9b6c6833edd1b2f10a329e07eae52948f775418701e212e8e3acdb4c</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Utilities\mc_utilities.h</file>
-         <hash>4d62a2e8646b093c674ba4dcec77098066a6b77a765f7cc3c0768c19a88ac139</hash>
+         <hash>6c05764a080ee58c3b76d00eb7ed0d368e71e7e65fd751819dfa53a73020a9bc</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_motor.h</file>
-         <hash>fd993b59c16fcbd7cfc969e052d3526145129294a65f1b2ec444646c61608273</hash>
-      </entry>
-      <entry>
-         <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_initial_position_detection.h</file>
-         <hash>2c233dfd8b7c88f1052e330986cc84d9459cabbb2e8a573640f27984dfb84580</hash>
+         <hash>1cba57b0f09357686a826f0aebb94e03ba70fc39f53a2d134e98462687021c90</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_pwm.c</file>
-         <hash>983fe3c3d104c02e934e3cebf33ddeef58884bcd00bccc74c765acf17a845cd1</hash>
+         <hash>5e026508b400b92c151c6109e0086134ad813179d1af61a67796a2b9de336b19</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_flying_start.c</file>
-         <hash>d9073ee84ad5ae669606d6aa6fec465230cadf013becdcc6c5ad66ca42136789</hash>
+         <hash>ce2f87279ad2f871dbc78b4108aa8e4419ec0991a9b88cb6e29f6ecf062e24d9</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_pwm.h</file>
-         <hash>93e2f206ee39d3b5f529f971397daa097ebc7e1ad075939eef878b3fe9c9ae56</hash>
+         <hash>4d3488a0f623e7ce5f9e30f5db97038e85fb88ffc4450c212fd04670e5d4ddea</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_flying_start.h</file>
-         <hash>1deb30dd62fdf7354ca0150d95a5a640764349133dee9955953f44e4aa2a53c9</hash>
+         <hash>0da507b007f47f781328e968d0e44f8e03f4fdb34a5c2b9e4182d073a03d64c3</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\adchs\plib_adchs.h</file>
@@ -18168,11 +18100,11 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\gpio\plib_gpio.h</file>
-         <hash>b59cc0977a5d53518679867a3e396523261a307643aecee07c18284690fb0cf6</hash>
+         <hash>b3b0943dcf39e4821aa6adf265e8f5840ca845eb6f4ffd3cc291853aeee49769</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_flux_control.c</file>
-         <hash>c57e4ccd362360ca92c1ede1c16e394be5719cfcf9454ca8c26eabf56332e2ac</hash>
+         <hash>e411b3ecc84703e26b86010ce61d0201ab7d45493cd02c3535f382c578ff19c0</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\X2CCode\X2CScope\inc\X2CScopeCommunication.h</file>
@@ -18184,15 +18116,15 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\mc_types.h</file>
-         <hash>f78cdac4a1abddb318fcbd62dd850eb4a589fd02dfc9386ed8c333270cedba00</hash>
+         <hash>e548a7e9d2d54fea5862665d544cca63a8ed4e3f325392fa2d57790c0d082852</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_field_oriented_control.c</file>
-         <hash>11c767be3dd75efa332ff60faf8ffffed6be275e5da45196deb4ec193942d810</hash>
+         <hash>eaa33ec98466e942038df3bb4faece6bf00fde1aea2f788dd2a9fa6d1bbbd384</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_field_oriented_control.h</file>
-         <hash>db599b4e691386ece20c86f29e699a7435c7b437800ccc69ba0eb132d7ef8db5</hash>
+         <hash>db86e6cb8ea00b248eff0ecfc011a60b8dc76e162c653e55e013dab98e99e44c</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\gpio\plib_gpio.c</file>
@@ -18200,7 +18132,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_flux_control.h</file>
-         <hash>ef793c1b1b3980ad8eb1c7ab8357483e618c8190ca6826b30770190f2386ade3</hash>
+         <hash>0fc95f71af1438ecae210be966861eacef7916db0aefb4949fddbc70cb732750</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\X2CCode\X2CScope\src\X2CScopeCommunication.c</file>
@@ -18212,7 +18144,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_reference_control.c</file>
-         <hash>db2e5eaf4f22885a91978f9f4682768dea3005e92dcabfd03b72ea98b3aa4202</hash>
+         <hash>e7c1deb76abe294d449f9b52c2a6be72906a2990131eccdb8870c3ea33a362c6</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\mcpwm\plib_mcpwm.c</file>
@@ -18220,27 +18152,27 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Voltage_Calculation\mc_voltage_measurement.h</file>
-         <hash>7542cc19781441530296a8160061518a2deb94d04388d5611dbc81ffa6dbd8fc</hash>
+         <hash>cf467adcb8500739cb246eaddd5888d0a0a98fb04352540f5cee6da9accd7c7e</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Utilities\mc_utilities.c</file>
-         <hash>689e345a37018f07ec4a0d386b67221bb4ee7b6604e496b7af2e299e2a492237</hash>
+         <hash>62f35ea7ed5c15d0a2dd37ad776228950612cfe5d0d7ee69ab50f616bd6f8010</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Hardware_Abstraction\mc_hardware_abstraction.h</file>
-         <hash>623d472183d04eaff9c0ff6de4dec65975e8e4cf8dfa2ddc9524308e5463def2</hash>
+         <hash>691db12010642d511e33efc8d4d9b554ae2f5872f15bbebffbb4ce3c6197467e</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_torque_control.h</file>
-         <hash>d3b7ae13a0acd40f4183f5ce46674ac4241bf2f124bc6fed7074fe9e0c289e00</hash>
+         <hash>bcf239cf3080cf62b7f12fb39ed04a082d3773e29c6f9cf6511e17c3fa399cf2</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Voltage_Calculation\mc_voltage_measurement.c</file>
-         <hash>bc5378b5aa674f8c9e0a50f299b645fb985a047c86721757430fcdacc2f9c872</hash>
+         <hash>a3c53218cb695e9ddd027297b6e7fad95c2882f668de908b2cd3f23e804edd1d</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_pi_control.c</file>
-         <hash>d64c9c7099c2336b0dfb62cd58fa1cd9cdde9e2bed432aa1a24b025685094307</hash>
+         <hash>1cf8d84795fcaa78a0c4efdff54e559d2ac819e3caba2c58ce320fa361144220</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\interrupts.c</file>
@@ -18248,7 +18180,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_pi_control.h</file>
-         <hash>08eac04c7f6b077dab17e7fbd4726c2815a49fa83c11441a8491aaa7b984ba82</hash>
+         <hash>3ab8df96fcd5abeb52ab9f8dd21754f91e104d4c0d0883d044da9a6eb5da35b3</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\adchs\plib_adchs_common.h</file>
@@ -18260,19 +18192,19 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Hardware_Abstraction\mc_hardware_abstraction.c</file>
-         <hash>4cafa751bd534e4c8e74abed060d14a53ff47f6b687ccc74d7b36a3b4251b613</hash>
+         <hash>4c03624d061f50a2d4bb66a6f18f628ceed1dcf5860bb5ef0e55376c70dc1f5d</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_torque_control.c</file>
-         <hash>7a857b67a0a80055eb74eb916ce1019abbe577f3206fa97fa060dab1ca49248f</hash>
+         <hash>4651dbbf93ee47961cd71f0b7937c1ddfebff4cf09a2b091ebe108b8f4646bf1</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_reference_control.h</file>
-         <hash>9e9d57a1d4bf2b3e6e981773acf92f4dc2fc69e2a2d6bab6eaba93def7afe750</hash>
+         <hash>496816fc28cc14622336c8cda8836330f115590284c9704567d8609a1d07aafa</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Current_Calculation\mc_current_calculation.h</file>
-         <hash>0f695a1aa89fc4518c07f60f5996cc55723190f4c7376af745b54778b2314f2a</hash>
+         <hash>30818aa47f5c961334b53125a807a9b2d2cc008803dcfb30e836b2f25da97c1f</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\mcpwm\plib_mcpwm.h</file>
@@ -18312,7 +18244,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_open_loop_startup.c</file>
-         <hash>63fd9bd37bbeb27e94885a27d736ec5755a4c2752b3e050c2457396642f10124</hash>
+         <hash>38e5a6f990876874c9fef1df51d2f043449e90cb99acaba9b2046f0235fe890f</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\definitions.h</file>
@@ -18320,7 +18252,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\mc_key_manager.h</file>
-         <hash>4987bf61478d889590e7fb2e4a9e16231e0746b68c549d9813651514c263531f</hash>
+         <hash>c0012a1593b8086b8a059fe07e8a6517dff393a6b7aef11d4c3e16f27455054c</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\mc_application.c</file>
@@ -18328,11 +18260,11 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\mc_application.h</file>
-         <hash>14b2370cf3babc58737196b9ddd18482646f1867441c930f5028b3ca69d761f4</hash>
+         <hash>323bf0b61b2c0667c9ab782be3b2ccdf05c18449e0fa102b3a8020d33502173d</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_open_loop_startup.h</file>
-         <hash>6b1828c05f5c950b3ee12500ae368502badeddf8977d2f9ba5e899f672174f87</hash>
+         <hash>d68cb16bdf703f3bd22135cae66042594c8cb8aad05e32f92746e9cfd60fa441</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\qei\plib_qei2.c</file>
@@ -18340,7 +18272,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_rotor_position_calculation.c</file>
-         <hash>fec63550e50055ac26b94d9a971ec9aa18c6958ef204b377cc25b6009dfd2956</hash>
+         <hash>66bbc1ada8baeae20755429e57b969d3dedf42932a21394d7ffb3a6a0a1c070c</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\toolchain_specifics.h</file>
@@ -18352,11 +18284,11 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\mc_key_manager.c</file>
-         <hash>050befc9f3628cc7fd4d08e6771b1569bc7b571e400a76b84573c7c33b0327ac</hash>
+         <hash>1fa9da95b23e6293cb48a6cbaaeb9b16e90125ef6bb15debc422c924192d26fb</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
-         <hash>33c126fe83707919bb087f63637bf0203956703d3f63cbb0b8610c83dd3345be</hash>
+         <hash>51748ba2c665d426cd7fb9a0f574902d7f1c763b55e8ffbf7f1a0f26585c0a3a</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\clk\plib_clk.c</file>
@@ -18372,7 +18304,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Current_Calculation\mc_current_calculation.c</file>
-         <hash>48145df4181085368179ac0b64b900fc8316977bd595a69277e3133fd186caa2</hash>
+         <hash>d2aafca43d1b08c2f47b70f0960cbcd1a4f0b871bbdbd794fecebbfa68f7d0fd</hash>
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\peripheral\mcpwm\plib_mcpwm_common.h</file>
@@ -18380,7 +18312,7 @@
       </entry>
       <entry>
          <file>..\src\config\mchv3_pic32_mk_mcf_pim\QSpin\Field_Oriented_Control\mc_rotor_position_calculation.h</file>
-         <hash>15a7a14055a6c557db69ef3ad133c8e46c0471206b45a7cb3fc3fc95e17f8d12</hash>
+         <hash>8f04adf13e48b6517f413081e9922afd5c8676760fea3e3e9d0a7e75963bdff7</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>

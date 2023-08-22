@@ -55,7 +55,6 @@
               <itemPath>../src/config/mchv3_pic32_mk_mcf_pim/QSpin/Field_Oriented_Control/mc_torque_control.h</itemPath>
               <itemPath>../src/config/mchv3_pic32_mk_mcf_pim/QSpin/Field_Oriented_Control/mc_rotor_position_calculation.h</itemPath>
               <itemPath>../src/config/mchv3_pic32_mk_mcf_pim/QSpin/Field_Oriented_Control/mc_pwm.h</itemPath>
-              <itemPath>../src/config/mchv3_pic32_mk_mcf_pim/QSpin/Field_Oriented_Control/mc_initial_position_detection.h</itemPath>
               <itemPath>../src/config/mchv3_pic32_mk_mcf_pim/QSpin/Field_Oriented_Control/mc_speed_control.h</itemPath>
               <itemPath>../src/config/mchv3_pic32_mk_mcf_pim/QSpin/Field_Oriented_Control/mc_motor.h</itemPath>
               <itemPath>../src/config/mchv3_pic32_mk_mcf_pim/QSpin/Field_Oriented_Control/mc_flying_start.h</itemPath>

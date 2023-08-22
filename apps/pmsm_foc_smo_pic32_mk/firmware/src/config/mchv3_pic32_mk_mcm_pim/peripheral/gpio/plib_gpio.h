@@ -83,13 +83,13 @@
 #define VDC_Get()               ((PORTA >> 12) & 0x1U)
 #define VDC_PIN                  GPIO_PIN_RA12
 
-/*** Macros for IB pin ***/
-#define IB_Get()               ((PORTB >> 2) & 0x1U)
-#define IB_PIN                  GPIO_PIN_RB2
+/*** Macros for I_B pin ***/
+#define I_B_Get()               ((PORTB >> 2) & 0x1U)
+#define I_B_PIN                  GPIO_PIN_RB2
 
-/*** Macros for IA pin ***/
-#define IA_Get()               ((PORTC >> 2) & 0x1U)
-#define IA_PIN                  GPIO_PIN_RC2
+/*** Macros for I_A pin ***/
+#define I_A_Get()               ((PORTC >> 2) & 0x1U)
+#define I_A_PIN                  GPIO_PIN_RC2
 
 /*** Macros for QEB pin ***/
 #define QEB_Get()               ((PORTE >> 14) & 0x1U)

@@ -12,7 +12,7 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Hardware |
 |:---------|:---------:|
-| mclv2_sam_e54_pim.X |[MCLV2 Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2)<br>[PIC32MK MCF Motor Plugin Module](https://www.microchip.com/developmenttools/ProductDetails/ma320024)<br>[EBM-PAPST ECI 6320-K1-B00 motor](https://ebmpapst.se/sv/dat/media_manager/news/696/news-files/Ext_38717.pdf) |
+| mclv2_pic32mk_mcf_pim.X |[MCLV2 Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2)<br>[PIC32MK MCF Motor Plugin Module](https://www.microchip.com/developmenttools/ProductDetails/ma320024)<br>[EBM-PAPST ECI 6320-K1-B00 motor](https://ebmpapst.se/sv/dat/media_manager/news/696/news-files/Ext_38717.pdf) |
 
 ### Modify the [MCLV2 Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/DM330021-2)
 - Modify the MCLV2 development board for higher current capability- TC1 modifications. Refer the [MCLV2 Development Board modification guide](http://ww1.microchip.com/downloads/en/DeviceDoc/motorBench-mclv2-modifications-guidelines.2.285.pdf) for more details.
